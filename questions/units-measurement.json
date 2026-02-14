@@ -1,0 +1,83 @@
+[
+  {
+    "id": "9ea0ff00-e411-49ee-871b-119650d81feb",
+    "text": "A train leaves at 08:47 and arrives at 11:23. How long is the journey?",
+    "options": { "a": "2 hours 24 minutes", "b": "2 hours 36 minutes", "c": "2 hours 46 minutes", "d": "3 hours 24 minutes", "e": "3 hours 36 minutes" },
+    "answer": "b",
+    "explanation": "From 08:47 to 11:47 would be 3 hours. But arrival is 11:23, which is 24 minutes before 11:47. So: 08:47 to 11:00 = 2 h 13 min, 11:00 to 11:23 = 23 min. Total = 2 h 36 min.",
+    "topic": "units-measurement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "cee62693-462a-4a99-bc2b-06c35beef4a6",
+    "text": "A car travels 180 miles in 3 hours. What is its average speed?",
+    "options": { "a": "45 mph", "b": "50 mph", "c": "55 mph", "d": "60 mph", "e": "65 mph" },
+    "answer": "d",
+    "explanation": "Average speed = distance ÷ time = 180 ÷ 3 = 60 mph.",
+    "topic": "units-measurement",
+    "difficulty": "easy"
+  },
+  {
+    "id": "de125c8d-7ab4-4d37-b533-bc529ff487e4",
+    "text": "Convert 3.5 kilometres to metres.",
+    "options": { "a": "35 m", "b": "350 m", "c": "3,050 m", "d": "3,500 m", "e": "35,000 m" },
+    "answer": "d",
+    "explanation": "1 km = 1,000 m. So 3.5 km = 3.5 × 1,000 = 3,500 m.",
+    "topic": "units-measurement",
+    "difficulty": "easy"
+  },
+  {
+    "id": "7b99614e-b052-4b90-be50-fd8ab4ead29b",
+    "text": "A bag of sweets weighs 1.2 kg. How many grams is this?",
+    "options": { "a": "12 g", "b": "120 g", "c": "1,020 g", "d": "1,200 g", "e": "12,000 g" },
+    "answer": "d",
+    "explanation": "1 kg = 1,000 g. So 1.2 kg = 1,200 g.",
+    "topic": "units-measurement",
+    "difficulty": "easy"
+  },
+  {
+    "id": "999bd0b6-dd28-455c-826b-6cccf7e3e76b",
+    "text": "A film starts at 14:35 and lasts 1 hour 48 minutes. What time does it end?",
+    "options": { "a": "15:83", "b": "16:13", "c": "16:23", "d": "16:33", "e": "16:43" },
+    "answer": "c",
+    "explanation": "14:35 + 1 hour = 15:35. 15:35 + 48 minutes = 16:23.",
+    "topic": "units-measurement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "9a7c03d7-e93a-48da-91a5-89865e38eec4",
+    "text": "A water tank holds 4.5 litres. How many 250 ml cups can be filled from a full tank?",
+    "options": { "a": "14", "b": "16", "c": "18", "d": "20", "e": "22" },
+    "answer": "c",
+    "explanation": "4.5 litres = 4,500 ml. 4,500 ÷ 250 = 18.",
+    "topic": "units-measurement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "a60cf75d-1a02-4da8-9e9f-11ec5d6e4f39",
+    "text": "A piece of rope is 3.4 m long. It is cut into pieces each 20 cm long. How many pieces can be cut?",
+    "options": { "a": "15", "b": "16", "c": "17", "d": "18", "e": "34" },
+    "answer": "c",
+    "explanation": "3.4 m = 340 cm. 340 ÷ 20 = 17 pieces.",
+    "topic": "units-measurement",
+    "difficulty": "easy"
+  },
+  {
+    "id": "51a5c012-4d32-4842-83f8-42a1c49c343f",
+    "text": "A bus leaves every 12 minutes. The first bus leaves at 07:15. At what time does the fourth bus leave?",
+    "options": { "a": "07:48", "b": "07:51", "c": "08:00", "d": "08:03", "e": "08:15" },
+    "answer": "b",
+    "explanation": "1st bus: 07:15. 2nd: 07:27. 3rd: 07:39. 4th: 07:51.",
+    "topic": "units-measurement",
+    "difficulty": "medium"
+  },
+  {
+    "id": "737afa7c-6804-46eb-b31b-cdcea3be76a6",
+    "text": "A container holds 2 litres of juice. 350 ml is poured out, then 1.2 litres is added. How much juice is in the container now?",
+    "options": { "a": "2,450 ml", "b": "2,550 ml", "c": "2,750 ml", "d": "2,850 ml", "e": "3,050 ml" },
+    "answer": "d",
+    "explanation": "2 litres = 2,000 ml. 2,000 − 350 = 1,650. 1,650 + 1,200 = 2,850 ml.",
+    "topic": "units-measurement",
+    "difficulty": "medium"
+  }
+]

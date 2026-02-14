@@ -1,0 +1,65 @@
+[
+  {
+    "id": "a2e931e9-3346-45de-b5eb-75794b2f299d",
+    "text": "A recipe needs 250 ml of milk to make 10 pancakes. How much milk is needed to make 25 pancakes?",
+    "options": { "a": "500 ml", "b": "525 ml", "c": "600 ml", "d": "625 ml", "e": "750 ml" },
+    "answer": "d",
+    "explanation": "25 pancakes is 2.5 times 10 pancakes. 250 ml × 2.5 = 625 ml.",
+    "topic": "ratio-proportion",
+    "difficulty": "easy"
+  },
+  {
+    "id": "4e7975f6-ef12-46cb-8e03-ce4605758b6f",
+    "text": "Red and blue beads are in the ratio 3 : 5. There are 120 beads in total. How many blue beads are there?",
+    "options": { "a": "45", "b": "50", "c": "60", "d": "72", "e": "75" },
+    "answer": "e",
+    "explanation": "Total parts = 3 + 5 = 8. One part = 120 ÷ 8 = 15. Blue = 5 × 15 = 75.",
+    "topic": "ratio-proportion",
+    "difficulty": "medium"
+  },
+  {
+    "id": "0673c069-8631-45a8-afb5-c55dd8d49d89",
+    "text": "A bag contains red, blue and green counters in the ratio 2 : 3 : 7. What fraction of the counters are blue?",
+    "options": { "a": "1/4", "b": "3/12", "c": "1/6", "d": "3/7", "e": "1/3" },
+    "answer": "a",
+    "explanation": "Total parts = 2 + 3 + 7 = 12. Blue fraction = 3/12 = 1/4.",
+    "topic": "ratio-proportion",
+    "difficulty": "hard"
+  },
+  {
+    "id": "dff8c2e6-f77c-4de9-856e-0739d6714d4c",
+    "text": "Purple paint is made by mixing red and blue paint in the ratio 3 : 5. How much blue paint is needed to mix with 600 ml of red paint?",
+    "options": { "a": "360 ml", "b": "800 ml", "c": "900 ml", "d": "1,000 ml", "e": "1,200 ml" },
+    "answer": "d",
+    "explanation": "Red : Blue = 3 : 5. If red = 600 ml, one part = 600 ÷ 3 = 200 ml. Blue = 5 × 200 = 1,000 ml.",
+    "topic": "ratio-proportion",
+    "difficulty": "medium"
+  },
+  {
+    "id": "739494a2-fa63-4de9-8991-2a27b53c4e18",
+    "text": "A map has a scale of 1 cm : 5 km. Two towns are 7.5 cm apart on the map. What is the real distance?",
+    "options": { "a": "15 km", "b": "25 km", "c": "35 km", "d": "37.5 km", "e": "75 km" },
+    "answer": "d",
+    "explanation": "7.5 cm × 5 km/cm = 37.5 km.",
+    "topic": "ratio-proportion",
+    "difficulty": "hard"
+  },
+  {
+    "id": "4bdaa744-ec18-41f0-80e5-f00744f1307c",
+    "text": "Sam and Tara share £45 in the ratio 4 : 5. How much more does Tara get than Sam?",
+    "options": { "a": "£4", "b": "£5", "c": "£9", "d": "£20", "e": "£25" },
+    "answer": "b",
+    "explanation": "Total parts = 4 + 5 = 9. One part = £45 ÷ 9 = £5. Sam gets 4 × £5 = £20. Tara gets 5 × £5 = £25. Difference = £25 − £20 = £5.",
+    "topic": "ratio-proportion",
+    "difficulty": "medium"
+  },
+  {
+    "id": "79f14562-868d-4a4f-bba5-d8a6bfc74d47",
+    "text": "A recipe for 4 people uses 300 g of flour. How much flour is needed for 10 people?",
+    "options": { "a": "600 g", "b": "700 g", "c": "750 g", "d": "900 g", "e": "1,200 g" },
+    "answer": "c",
+    "explanation": "For 1 person: 300 ÷ 4 = 75 g. For 10 people: 75 × 10 = 750 g.",
+    "topic": "ratio-proportion",
+    "difficulty": "easy"
+  }
+]
