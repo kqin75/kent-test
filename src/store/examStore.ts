@@ -6,14 +6,12 @@ type ExamStatus = 'idle' | 'in-progress' | 'submitted'
 interface ExamState {
   paper: Paper | null
   currentIndex: number
-  answers: Record<number, OptionLabel | null>
-  flagged: Set<number>
+  answers: Record<string, OptionLabel | null>
   status: ExamStatus
   timeUsed: number
 
   startExam: (paper: Paper) => void
-  selectAnswer: (questionId: number, option: OptionLabel) => void
-  toggleFlag: (questionId: number) => void
+  selectAnswer: (questionId: string, option: OptionLabel) => void
   goToQuestion: (index: number) => void
   nextQuestion: () => void
   prevQuestion: () => void
@@ -25,7 +23,6 @@ export const useExamStore = create<ExamState>((set) => ({
   paper: null,
   currentIndex: 0,
   answers: {},
-  flagged: new Set(),
   status: 'idle',
   timeUsed: 0,
 
@@ -34,7 +31,6 @@ export const useExamStore = create<ExamState>((set) => ({
       paper,
       currentIndex: 0,
       answers: {},
-      flagged: new Set(),
       status: 'in-progress',
       timeUsed: 0,
     }),
@@ -43,17 +39,6 @@ export const useExamStore = create<ExamState>((set) => ({
     set((state) => ({
       answers: { ...state.answers, [questionId]: option },
     })),
-
-  toggleFlag: (questionId) =>
-    set((state) => {
-      const next = new Set(state.flagged)
-      if (next.has(questionId)) {
-        next.delete(questionId)
-      } else {
-        next.add(questionId)
-      }
-      return { flagged: next }
-    }),
 
   goToQuestion: (index) => set({ currentIndex: index }),
 
@@ -76,7 +61,6 @@ export const useExamStore = create<ExamState>((set) => ({
       paper: null,
       currentIndex: 0,
       answers: {},
-      flagged: new Set(),
       status: 'idle',
       timeUsed: 0,
     }),

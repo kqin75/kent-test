@@ -6,6 +6,7 @@ interface ExamControlsProps {
   onPrev: () => void
   onNext: () => void
   onSubmit: () => void
+  isNextDisabled: boolean
 }
 
 export default function ExamControls({
@@ -14,6 +15,7 @@ export default function ExamControls({
   onPrev,
   onNext,
   onSubmit,
+  isNextDisabled,
 }: ExamControlsProps) {
   const isFirst = currentIndex === 0
   const isLast = currentIndex === totalQuestions - 1
@@ -37,7 +39,7 @@ export default function ExamControls({
           Submit ✓
         </Button>
       ) : (
-        <Button variant="primary" onClick={onNext}>
+        <Button variant="primary" onClick={onNext} disabled={isNextDisabled}>
           Next →
         </Button>
       )}

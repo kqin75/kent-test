@@ -1,12 +1,11 @@
 import type { Question, OptionLabel } from '../../data/schema'
+import QuestionImage from '../ui/QuestionImage'
 
 interface QuestionCardProps {
   question: Question
   questionNumber: number
   selectedAnswer: OptionLabel | null
   onSelect: (option: OptionLabel) => void
-  isFlagged: boolean
-  onToggleFlag: () => void
 }
 
 const optionLabels: OptionLabel[] = ['a', 'b', 'c', 'd', 'e']
@@ -16,45 +15,36 @@ export default function QuestionCard({
   questionNumber,
   selectedAnswer,
   onSelect,
-  isFlagged,
-  onToggleFlag,
 }: QuestionCardProps) {
   return (
     <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6 md:p-8">
-      <div className="flex items-start justify-between mb-6">
+      <div className="mb-6">
         <h2 className="text-lg md:text-xl font-semibold text-gray-900">
           <span className="text-blue-600">Q{questionNumber}.</span>{' '}
           {question.text}
         </h2>
-        <button
-          onClick={onToggleFlag}
-          className={`ml-4 flex-shrink-0 p-2 rounded-lg transition-colors cursor-pointer ${
-            isFlagged
-              ? 'text-yellow-500 bg-yellow-50 hover:bg-yellow-100'
-              : 'text-gray-400 hover:text-yellow-500 hover:bg-yellow-50'
-          }`}
-          title={isFlagged ? 'Remove flag' : 'Flag for review'}
-        >
-          <svg className="w-6 h-6" fill={isFlagged ? 'currentColor' : 'none'} stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-          </svg>
-        </button>
       </div>
 
-      <div className="space-y-3">
+      {question.image && (
+        <div className="mb-6">
+          <QuestionImage image={question.image} />
+        </div>
+      )}
+
+      <div className="flex flex-wrap gap-2">
         {optionLabels.map((label) => {
           const isSelected = selectedAnswer === label
           return (
             <button
               key={label}
               onClick={() => onSelect(label)}
-              className={`w-full text-left px-5 py-4 rounded-lg border-2 transition-all text-base md:text-lg cursor-pointer ${
+              className={`flex-1 min-w-0 text-center px-3 py-3 rounded-lg border-2 transition-all text-base md:text-lg cursor-pointer ${
                 isSelected
                   ? 'border-blue-500 bg-blue-50 text-blue-900 font-medium'
                   : 'border-gray-200 bg-white text-gray-700 hover:border-blue-300 hover:bg-blue-50/50'
               }`}
             >
-              <span className={`inline-flex items-center justify-center w-8 h-8 rounded-full mr-3 text-sm font-bold ${
+              <span className={`inline-flex items-center justify-center w-7 h-7 rounded-full mr-1.5 text-sm font-bold ${
                 isSelected ? 'bg-blue-500 text-white' : 'bg-gray-100 text-gray-600'
               }`}>
                 {label.toUpperCase()}

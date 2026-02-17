@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useExamStore } from '../../store/examStore'
-import { useHistoryStore } from '../../store/historyStore'
+import { usePaperStore } from '../../store/paperStore'
 import { useTimer } from '../../hooks/useTimer'
 import { calculateScore } from '../../utils/scoring'
 import { EXAM_DURATION_SECONDS } from '../../constants'
@@ -17,16 +17,14 @@ export default function ExamShell() {
     paper,
     currentIndex,
     answers,
-    flagged,
     selectAnswer,
-    toggleFlag,
     goToQuestion,
     nextQuestion,
     prevQuestion,
     submitExam,
   } = useExamStore()
 
-  const addResult = useHistoryStore((s) => s.addResult)
+  const completePaper = usePaperStore((s) => s.completePaper)
   const [showSubmitModal, setShowSubmitModal] = useState(false)
   const submittedRef = useRef(false)
 
@@ -38,18 +36,19 @@ export default function ExamShell() {
     const timeUsed = getTimeUsed.current()
     const score = calculateScore(paper.questions, answers)
     submitExam(timeUsed)
-    addResult({
-      paperId: paper.id,
+    completePaper(paper.id, {
+      id: crypto.randomUUID(),
       paperTitle: paper.title,
       score,
       total: paper.questions.length,
+      questions: paper.questions,
       answers,
-      flagged: Array.from(flagged),
+      flagged: [],
       timeUsed,
       completedAt: new Date().toISOString(),
     })
-    navigate(`/results/${paper.id}`)
-  }, [paper, answers, flagged, submitExam, addResult, navigate])
+    navigate('/results')
+  }, [paper, answers, submitExam, completePaper, navigate])
 
   const timer = useTimer({
     initialSeconds: EXAM_DURATION_SECONDS,
@@ -67,7 +66,7 @@ export default function ExamShell() {
 
   const question = paper.questions[currentIndex]
   const unansweredCount = paper.questions.filter((q) => answers[q.id] == null).length
-  const flaggedCount = flagged.size
+  const isCurrentAnswered = answers[question.id] != null
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -86,8 +85,6 @@ export default function ExamShell() {
               questionNumber={currentIndex + 1}
               selectedAnswer={answers[question.id] ?? null}
               onSelect={(opt) => selectAnswer(question.id, opt)}
-              isFlagged={flagged.has(question.id)}
-              onToggleFlag={() => toggleFlag(question.id)}
             />
             <ExamControls
               currentIndex={currentIndex}
@@ -95,6 +92,7 @@ export default function ExamShell() {
               onPrev={prevQuestion}
               onNext={nextQuestion}
               onSubmit={() => setShowSubmitModal(true)}
+              isNextDisabled={!isCurrentAnswered}
             />
           </div>
 
@@ -104,7 +102,6 @@ export default function ExamShell() {
                 totalQuestions={paper.questions.length}
                 currentIndex={currentIndex}
                 answers={answers}
-                flagged={flagged}
                 questionIds={paper.questions.map((q) => q.id)}
                 onNavigate={goToQuestion}
               />
@@ -135,12 +132,7 @@ export default function ExamShell() {
               You have {unansweredCount} unanswered question{unansweredCount > 1 ? 's' : ''}.
             </p>
           )}
-          {flaggedCount > 0 && (
-            <p className="text-yellow-600 font-medium">
-              You have {flaggedCount} flagged question{flaggedCount > 1 ? 's' : ''}.
-            </p>
-          )}
-          {unansweredCount === 0 && flaggedCount === 0 && (
+          {unansweredCount === 0 && (
             <p>You have answered all questions. Ready to submit?</p>
           )}
           <p className="text-sm text-gray-500">
