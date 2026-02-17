@@ -1,9 +1,10 @@
 import type { Question, OptionLabel } from '../../data/schema'
 import { getTopicById } from '../../data/topics'
+import QuestionImage from '../ui/QuestionImage'
 
 interface QuestionReviewProps {
   questions: Question[]
-  answers: Record<number, OptionLabel | null>
+  answers: Record<string, OptionLabel | null>
 }
 
 const optionLabels: OptionLabel[] = ['a', 'b', 'c', 'd', 'e']
@@ -56,6 +57,12 @@ export default function QuestionReview({ questions, answers }: QuestionReviewPro
                 {q.difficulty}
               </span>
             </div>
+
+            {q.image && (
+              <div className="mb-3">
+                <QuestionImage image={q.image} />
+              </div>
+            )}
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-3">
               {optionLabels.map((label) => {

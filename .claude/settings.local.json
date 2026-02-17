@@ -28,7 +28,12 @@
       "Bash(brew install:*)",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(npm run deploy:*)",
+      "Bash(gh api:*)",
+      "Bash(npx vite build)",
+      "Bash(node:*)"
     ]
   }
 }

@@ -11,14 +11,14 @@ export interface TopicScore {
 
 export function calculateScore(
   questions: Question[],
-  answers: Record<number, OptionLabel | null>,
+  answers: Record<string, OptionLabel | null>,
 ): number {
   return questions.filter((q) => answers[q.id] === q.answer).length
 }
 
 export function calculateTopicScores(
   questions: Question[],
-  answers: Record<number, OptionLabel | null>,
+  answers: Record<string, OptionLabel | null>,
 ): TopicScore[] {
   const map = new Map<TopicId, { correct: number; total: number }>()
 
