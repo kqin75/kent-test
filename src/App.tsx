@@ -1,16 +1,35 @@
 import { useEffect, useState } from 'react'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link, useLocation } from 'react-router-dom'
 import { useQuestionBankStore } from './store/questionBankStore'
-import { usePaperStore } from './store/paperStore'
+
+declare global {
+  interface Window { gtag?: (...args: unknown[]) => void }
+}
+
+function AnalyticsTracker() {
+  const location = useLocation()
+
+  useEffect(() => {
+    if (window.gtag) {
+      window.gtag('event', 'page_view', {
+        page_path: location.pathname + location.search,
+        page_title: document.title,
+      })
+    }
+  }, [location])
+
+  return null
+}
+
+import SubjectPage from './pages/SubjectPage'
 import HomePage from './pages/HomePage'
 import ExamPage from './pages/ExamPage'
 import ResultsPage from './pages/ResultsPage'
+import ContactPage from './pages/ContactPage'
 
 function AppLoader({ children }: { children: React.ReactNode }) {
   const seedFromJson = useQuestionBankStore((s) => s.seedFromJson)
   const isSeeded = useQuestionBankStore((s) => s.isSeeded)
-  const questions = useQuestionBankStore((s) => s.questions)
-  const generatePapers = usePaperStore((s) => s.generatePapers)
   const [loading, setLoading] = useState(!isSeeded)
 
   useEffect(() => {
@@ -18,12 +37,6 @@ function AppLoader({ children }: { children: React.ReactNode }) {
       seedFromJson().then(() => setLoading(false))
     }
   }, [isSeeded, seedFromJson])
-
-  useEffect(() => {
-    if (isSeeded && questions.length > 0) {
-      generatePapers(questions)
-    }
-  }, [isSeeded, questions, generatePapers])
 
   if (loading) {
     return (
@@ -38,14 +51,26 @@ function AppLoader({ children }: { children: React.ReactNode }) {
 
 export default function App() {
   return (
-    <HashRouter>
-      <AppLoader>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/exam" element={<ExamPage />} />
-          <Route path="/results" element={<ResultsPage />} />
-        </Routes>
-      </AppLoader>
-    </HashRouter>
+    <BrowserRouter>
+      <AnalyticsTracker />
+      <nav className="bg-white border-b border-gray-200 px-4 py-2 flex justify-end">
+        <Link to="/contact" className="text-sm text-gray-600 hover:text-blue-600">
+          Contact
+        </Link>
+      </nav>
+      <Routes>
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/*" element={
+          <AppLoader>
+            <Routes>
+              <Route path="/" element={<SubjectPage />} />
+              <Route path="/:subject" element={<HomePage />} />
+              <Route path="/:subject/exam" element={<ExamPage />} />
+              <Route path="/:subject/results" element={<ResultsPage />} />
+            </Routes>
+          </AppLoader>
+        } />
+      </Routes>
+    </BrowserRouter>
   )
 }
