@@ -40,6 +40,7 @@ export interface ExternalQuestion {
   difficulty: Difficulty
   text: string
   svg: string | null
+  question_svg?: string
   options: Record<ExternalOptionLabel, string>
   correct_answer: ExternalOptionLabel
   explanation: string

@@ -1,0 +1,1012 @@
+[
+  {
+    "id": "vr_7ada17f0a8b7",
+    "hash": "be5f86c44f7ef50c",
+    "added_at": "2026-02-24T14:00:00.000000+00:00",
+    "topic": "missing_three_letters",
+    "topic_name": "Missing Three Letters",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "The word in capitals has had three consecutive letters removed. These three letters make a real word. The sentence must make sense.\n\nThe WHER was warm and sunny.",
+    "svg": null,
+    "options": {
+      "A": "ERA",
+      "B": "EAR",
+      "C": "EAT",
+      "D": "EMU",
+      "E": "EWE"
+    },
+    "correct_answer": "C",
+    "explanation": "Insert 'EAT' into 'WHER' to make 'WEATHER': W + EAT + HER."
+  },
+  {
+    "id": "vr_1f8fbea2e990",
+    "hash": "78e51e84cb89db39",
+    "added_at": "2026-02-24T14:00:01.000000+00:00",
+    "topic": "opposite_words",
+    "topic_name": "Opposite Words",
+    "strand": "Verbal Reasoning",
+    "difficulty": "easy",
+    "text": "Find two words, one from each group, that are most opposite in meaning.\n\n(create  gather  proud)    (humble  scatter  destroy)",
+    "svg": null,
+    "options": {
+      "A": "create",
+      "B": "gather",
+      "C": "proud",
+      "X": "humble",
+      "Y": "scatter",
+      "Z": "destroy"
+    },
+    "correct_answer": "B,Y",
+    "explanation": "'gather' and 'scatter' are most opposite in meaning."
+  },
+  {
+    "id": "vr_28b0a2133a45",
+    "hash": "992026607c128203",
+    "added_at": "2026-02-24T14:00:02.000000+00:00",
+    "topic": "hidden_word",
+    "topic_name": "Hidden Word in Sentence",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "A word of four letters is hidden at the end of one word and the beginning of the next word. Find the pair of words that contains the hidden word.\n\nThe disco very nearly closed last night.",
+    "svg": null,
+    "options": {
+      "A": "The disco",
+      "B": "disco very",
+      "C": "very nearly",
+      "D": "nearly closed",
+      "E": "last night."
+    },
+    "correct_answer": "B",
+    "explanation": "The hidden word is 'over': disc(o) + (ver)y = 'over'."
+  },
+  {
+    "id": "vr_4ad0d5f902dc",
+    "hash": "86645e3bb998b03c",
+    "added_at": "2026-02-24T14:00:03.000000+00:00",
+    "topic": "opposite_words",
+    "topic_name": "Opposite Words",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "Find two words, one from each group, that are most opposite in meaning.\n\n(permanent  minor  interior)    (exterior  major  temporary)",
+    "svg": null,
+    "options": {
+      "A": "permanent",
+      "B": "minor",
+      "C": "interior",
+      "X": "exterior",
+      "Y": "major",
+      "Z": "temporary"
+    },
+    "correct_answer": "A,Z",
+    "explanation": "'permanent' and 'temporary' are most opposite in meaning."
+  },
+  {
+    "id": "vr_fbf2d327637d",
+    "hash": "e818d4c9736a1ce1",
+    "added_at": "2026-02-24T14:00:04.000000+00:00",
+    "topic": "opposite_words",
+    "topic_name": "Opposite Words",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "Find two words, one from each group, that are most opposite in meaning.\n\n(create  gather  proud)    (humble  scatter  destroy)",
+    "svg": null,
+    "options": {
+      "A": "create",
+      "B": "gather",
+      "C": "proud",
+      "X": "humble",
+      "Y": "scatter",
+      "Z": "destroy"
+    },
+    "correct_answer": "B,Y",
+    "explanation": "'gather' and 'scatter' are most opposite in meaning."
+  },
+  {
+    "id": "vr_0b0634afba23",
+    "hash": "bee924b90ccc0f58",
+    "added_at": "2026-02-24T14:00:05.000000+00:00",
+    "topic": "word_connections",
+    "topic_name": "Word Connection Patterns",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "The three words in the second group should go together in the same way as the three in the first group.\n\n(simple [sit] tunnel)    (pencil [ ? ] winter)",
+    "svg": null,
+    "options": {
+      "A": "pen",
+      "B": "pea",
+      "C": "pet",
+      "D": "pew",
+      "E": "peg"
+    },
+    "correct_answer": "D",
+    "explanation": "First two letters of word 1 ('pe') + first letter of word 3 ('w') = 'pew'."
+  },
+  {
+    "id": "vr_0863bbe79322",
+    "hash": "55defd292b5c3df1",
+    "added_at": "2026-02-24T14:00:06.000000+00:00",
+    "topic": "number_series",
+    "topic_name": "Number Series",
+    "strand": "Verbal Reasoning",
+    "difficulty": "easy",
+    "text": "Find the number that continues the series in the most sensible way.\n\n18  26  34  42  50  [ ? ]",
+    "svg": null,
+    "options": {
+      "A": "66",
+      "B": "50",
+      "C": "57",
+      "D": "59",
+      "E": "58"
+    },
+    "correct_answer": "E",
+    "explanation": "Each number increases by 8. 50 + 8 = 58."
+  },
+  {
+    "id": "vr_822e8a1e6829",
+    "hash": "99d40c0433840b80",
+    "added_at": "2026-02-24T14:00:07.000000+00:00",
+    "topic": "word_analogy",
+    "topic_name": "Word Analogy Sentence",
+    "strand": "Verbal Reasoning",
+    "difficulty": "easy",
+    "text": "Find the two words, one from each group, that complete the sentence in the best way.\n\nChapter is to (book read story) as verse is to (rhyme poem sing)",
+    "svg": null,
+    "options": {
+      "A": "book",
+      "B": "read",
+      "C": "story",
+      "X": "rhyme",
+      "Y": "poem",
+      "Z": "sing"
+    },
+    "correct_answer": "A,Y",
+    "explanation": "A chapter is part of a book; a verse is part of a poem."
+  },
+  {
+    "id": "vr_dde62f7577f3",
+    "hash": "32e157bb04b308d7",
+    "added_at": "2026-02-24T14:00:08.000000+00:00",
+    "topic": "letter_pair_series",
+    "topic_name": "Letter Pair Series",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "Find the next pair of letters in the series.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\nOU  QW  SY  UA  [ ? ]",
+    "svg": null,
+    "options": {
+      "A": "WC",
+      "B": "WD",
+      "C": "VC",
+      "D": "VB",
+      "E": "XD"
+    },
+    "correct_answer": "A",
+    "explanation": "First letter: O, Q, S, U (+2). Second letter: U, W, Y, A (+2). Next = WC."
+  },
+  {
+    "id": "vr_a96a5d3ff238",
+    "hash": "5d762a5355fa00e4",
+    "added_at": "2026-02-24T14:00:09.000000+00:00",
+    "topic": "letter_move",
+    "topic_name": "Letter Move",
+    "strand": "Verbal Reasoning",
+    "difficulty": "easy",
+    "text": "In this question, one letter can be moved from the first word to the second word to make two new words. The letters must not otherwise be rearranged and both new words must make sense.\n\nscold    hare",
+    "svg": null,
+    "options": {
+      "A": "s",
+      "B": "o",
+      "C": "c",
+      "D": "l",
+      "E": "d"
+    },
+    "correct_answer": "A",
+    "explanation": "The answer is 's': remove 's' from 'scold' to get 'cold', and add 's' to 'hare' to get 'share'."
+  },
+  {
+    "id": "vr_c2153acd3a6a",
+    "hash": "6c555beee4be3718",
+    "added_at": "2026-02-24T14:00:10.000000+00:00",
+    "topic": "hidden_word",
+    "topic_name": "Hidden Word in Sentence",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "A word of four letters is hidden at the end of one word and the beginning of the next word. Find the pair of words that contains the hidden word.\n\nThe slope arrived at a gentle angle below.",
+    "svg": null,
+    "options": {
+      "A": "The slope",
+      "B": "slope arrived",
+      "C": "arrived at",
+      "D": "gentle angle",
+      "E": "angle below."
+    },
+    "correct_answer": "B",
+    "explanation": "The hidden word is 'pear': slo(pe) + (ar)rived = 'pear'."
+  },
+  {
+    "id": "vr_7e2dc14aa088",
+    "hash": "1104b09eb102c395",
+    "added_at": "2026-02-24T14:00:11.000000+00:00",
+    "topic": "number_series",
+    "topic_name": "Number Series",
+    "strand": "Verbal Reasoning",
+    "difficulty": "easy",
+    "text": "Find the number that continues the series in the most sensible way.\n\n6  9  12  15  18  [ ? ]",
+    "svg": null,
+    "options": {
+      "A": "21",
+      "B": "24",
+      "C": "18",
+      "D": "20",
+      "E": "22"
+    },
+    "correct_answer": "A",
+    "explanation": "Each number increases by 3. 18 + 3 = 21."
+  },
+  {
+    "id": "vr_73e60fdee757",
+    "hash": "96eda2e28e0d7b59",
+    "added_at": "2026-02-24T14:00:12.000000+00:00",
+    "topic": "letter_move",
+    "topic_name": "Letter Move",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "In this question, one letter can be moved from the first word to the second word to make two new words. The letters must not otherwise be rearranged and both new words must make sense.\n\nplace    aid",
+    "svg": null,
+    "options": {
+      "A": "p",
+      "B": "e",
+      "C": "c",
+      "D": "a",
+      "E": "l"
+    },
+    "correct_answer": "E",
+    "explanation": "The answer is 'l': remove 'l' from 'place' to get 'pace', and add 'l' to 'aid' to get 'laid'."
+  },
+  {
+    "id": "vr_f4b01fa63a91",
+    "hash": "2a40b6ce2897f05e",
+    "added_at": "2026-02-24T14:00:13.000000+00:00",
+    "topic": "common_word",
+    "topic_name": "Common Word (Double Meaning)",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "Only one of the five answers will go equally well with both pairs of words.\n\n(contest game)  (equal draw)",
+    "svg": null,
+    "options": {
+      "A": "race",
+      "B": "match",
+      "C": "pair",
+      "D": "tie",
+      "E": "fight"
+    },
+    "correct_answer": "B",
+    "explanation": "'Match' means both a contest/game and something equal/corresponding (to match)."
+  },
+  {
+    "id": "vr_17aca2a17618",
+    "hash": "8c6a18a27d78f3e1",
+    "added_at": "2026-02-24T14:00:14.000000+00:00",
+    "topic": "number_series",
+    "topic_name": "Number Series",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "Find the number that continues the series in the most sensible way.\n\n8  10  13  17  22  28  [ ? ]",
+    "svg": null,
+    "options": {
+      "A": "37",
+      "B": "33",
+      "C": "34",
+      "D": "36",
+      "E": "35"
+    },
+    "correct_answer": "E",
+    "explanation": "The differences increase by 1 each time: +2, +3, +4, +5, +6, +7. Next = 28 + 7 = 35."
+  },
+  {
+    "id": "vr_5818b35d472c",
+    "hash": "41e76d5025130570",
+    "added_at": "2026-02-24T14:00:15.000000+00:00",
+    "topic": "letter_move",
+    "topic_name": "Letter Move",
+    "strand": "Verbal Reasoning",
+    "difficulty": "easy",
+    "text": "In this question, one letter can be moved from the first word to the second word to make two new words. The letters must not otherwise be rearranged and both new words must make sense.\n\nsnail    pot",
+    "svg": null,
+    "options": {
+      "A": "s",
+      "B": "l",
+      "C": "a",
+      "D": "i",
+      "E": "n"
+    },
+    "correct_answer": "A",
+    "explanation": "The answer is 's': remove 's' from 'snail' to get 'nail', and add 's' to 'pot' to get 'spot'."
+  },
+  {
+    "id": "vr_8cf05d25f0c3",
+    "hash": "07e51eafe93a55a6",
+    "added_at": "2026-02-24T14:00:16.000000+00:00",
+    "topic": "common_word",
+    "topic_name": "Common Word (Double Meaning)",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "Only one of the five answers will go equally well with both pairs of words.\n\n(bright radiant)  (pale fair)",
+    "svg": null,
+    "options": {
+      "A": "clear",
+      "B": "light",
+      "C": "dark",
+      "D": "white",
+      "E": "glow"
+    },
+    "correct_answer": "B",
+    "explanation": "'Light' means both bright/radiant and pale/fair (light colour)."
+  },
+  {
+    "id": "vr_8c4f8db05065",
+    "hash": "f4b48e653513f1a5",
+    "added_at": "2026-02-24T14:00:17.000000+00:00",
+    "topic": "number_series",
+    "topic_name": "Number Series",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "Find the number that continues the series in the most sensible way.\n\n33  34  31  37  29  40  27  43  [ ? ]",
+    "svg": null,
+    "options": {
+      "A": "26",
+      "B": "27",
+      "C": "24",
+      "D": "22",
+      "E": "25"
+    },
+    "correct_answer": "E",
+    "explanation": "Two alternating series. The answer continues the pattern: 25."
+  },
+  {
+    "id": "vr_8cbd9208115c",
+    "hash": "22944a39bf3294f7",
+    "added_at": "2026-02-24T14:00:18.000000+00:00",
+    "topic": "word_connections",
+    "topic_name": "Word Connection Patterns",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "The three words in the second group should go together in the same way as the three in the first group.\n\n(simple [sit] tunnel)    (pencil [ ? ] winter)",
+    "svg": null,
+    "options": {
+      "A": "peg",
+      "B": "pet",
+      "C": "pew",
+      "D": "pea",
+      "E": "pen"
+    },
+    "correct_answer": "C",
+    "explanation": "First two letters of word 1 ('pe') + first letter of word 3 ('w') = 'pew'."
+  },
+  {
+    "id": "vr_88d741dedb53",
+    "hash": "60c5dbd1a95bd266",
+    "added_at": "2026-02-24T14:00:19.000000+00:00",
+    "topic": "missing_letter_brackets",
+    "topic_name": "Missing Letter in Brackets",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "The same letter must fit into both sets of brackets, to complete the word in front of the brackets and begin the word after the brackets.\n\ntoo [ ? ] ear    bar [ ? ] ail",
+    "svg": null,
+    "options": {
+      "A": "n",
+      "B": "v",
+      "C": "t",
+      "D": "l",
+      "E": "j"
+    },
+    "correct_answer": "A",
+    "explanation": "The letter 'n' fits both sets: toon, near, barn, nail."
+  },
+  {
+    "id": "vr_4ee1fdcf358b",
+    "hash": "07e964bcb3a38067",
+    "added_at": "2026-02-24T14:00:20.000000+00:00",
+    "topic": "word_connections",
+    "topic_name": "Word Connection Patterns",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "The three words in the second group should go together in the same way as the three in the first group.\n\n(parrot [pat] travel)    (pirate [ ? ] gentle)",
+    "svg": null,
+    "options": {
+      "A": "pit",
+      "B": "pig",
+      "C": "pie",
+      "D": "pip",
+      "E": "pin"
+    },
+    "correct_answer": "B",
+    "explanation": "First two letters of word 1 ('pi') + first letter of word 3 ('g') = 'pig'."
+  },
+  {
+    "id": "vr_da8a336e6b22",
+    "hash": "d3f5582185ea4e76",
+    "added_at": "2026-02-24T14:00:21.000000+00:00",
+    "topic": "word_analogy",
+    "topic_name": "Word Analogy Sentence",
+    "strand": "Verbal Reasoning",
+    "difficulty": "easy",
+    "text": "Find the two words, one from each group, that complete the sentence in the best way.\n\nCaptain is to (ship sail crew) as pilot is to (fly aircraft runway)",
+    "svg": null,
+    "options": {
+      "A": "ship",
+      "B": "sail",
+      "C": "crew",
+      "X": "fly",
+      "Y": "aircraft",
+      "Z": "runway"
+    },
+    "correct_answer": "A,Y",
+    "explanation": "A captain commands a ship; a pilot commands an aircraft."
+  },
+  {
+    "id": "vr_f397578e517a",
+    "hash": "d664b2275347cea3",
+    "added_at": "2026-02-24T14:00:22.000000+00:00",
+    "topic": "word_connections",
+    "topic_name": "Word Connection Patterns",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "The three words in the second group should go together in the same way as the three in the first group.\n\n(man [mat] tip)    (bug [ ? ] dew)",
+    "svg": null,
+    "options": {
+      "A": "beg",
+      "B": "bed",
+      "C": "bud",
+      "D": "wed",
+      "E": "dug"
+    },
+    "correct_answer": "C",
+    "explanation": "First two letters of word 1 ('bu') + first letter of word 3 ('d') = 'bud'."
+  },
+  {
+    "id": "vr_7736ae3761d8",
+    "hash": "a810c641da5d2640",
+    "added_at": "2026-02-24T14:00:23.000000+00:00",
+    "topic": "hidden_word",
+    "topic_name": "Hidden Word in Sentence",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "A word of four letters is hidden at the end of one word and the beginning of the next word. Find the pair of words that contains the hidden word.\n\nHe grabbed a vocab lesson before the exam.",
+    "svg": null,
+    "options": {
+      "A": "He grabbed",
+      "B": "grabbed a",
+      "C": "a vocab",
+      "D": "vocab lesson",
+      "E": "the exam."
+    },
+    "correct_answer": "D",
+    "explanation": "The hidden word is 'able': voc(ab) + (le)sson = 'able'."
+  },
+  {
+    "id": "vr_51829f0222c7",
+    "hash": "1f8f8a8be0daacf3",
+    "added_at": "2026-02-24T14:00:24.000000+00:00",
+    "topic": "letter_pair_series",
+    "topic_name": "Letter Pair Series",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "Find the next pair of letters in the series.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\nXB  UE  RH  OK  [ ? ]",
+    "svg": null,
+    "options": {
+      "A": "MO",
+      "B": "KN",
+      "C": "LN",
+      "D": "MN",
+      "E": "KM"
+    },
+    "correct_answer": "C",
+    "explanation": "First letter goes back by 3. Second letter goes forward by 3. Next = LN."
+  },
+  {
+    "id": "vr_8eca8052d8c2",
+    "hash": "12a4010b46a8439d",
+    "added_at": "2026-02-24T14:00:25.000000+00:00",
+    "topic": "opposite_words",
+    "topic_name": "Opposite Words",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "Find two words, one from each group, that are most opposite in meaning.\n\n(permanent  minor  interior)    (exterior  major  temporary)",
+    "svg": null,
+    "options": {
+      "A": "permanent",
+      "B": "minor",
+      "C": "interior",
+      "X": "exterior",
+      "Y": "major",
+      "Z": "temporary"
+    },
+    "correct_answer": "A,Z",
+    "explanation": "'permanent' and 'temporary' are most opposite in meaning."
+  },
+  {
+    "id": "vr_a085c6e5d764",
+    "hash": "0bc932ba0c52321a",
+    "added_at": "2026-02-24T14:00:26.000000+00:00",
+    "topic": "letter_pair_series",
+    "topic_name": "Letter Pair Series",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "Find the next pair of letters in the series.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\nVK  TN  RQ  PT  [ ? ]",
+    "svg": null,
+    "options": {
+      "A": "MW",
+      "B": "NX",
+      "C": "MV",
+      "D": "OX",
+      "E": "NW"
+    },
+    "correct_answer": "E",
+    "explanation": "First letter goes back by 2. Second letter goes forward by 3. Next = NW."
+  },
+  {
+    "id": "vr_131920a9c05d",
+    "hash": "45d61fc56cd7a707",
+    "added_at": "2026-02-24T14:00:27.000000+00:00",
+    "topic": "word_analogy",
+    "topic_name": "Word Analogy Sentence",
+    "strand": "Verbal Reasoning",
+    "difficulty": "easy",
+    "text": "Find the two words, one from each group, that complete the sentence in the best way.\n\nHot is to (cold warm fire) as wet is to (dry rain water)",
+    "svg": null,
+    "options": {
+      "A": "cold",
+      "B": "warm",
+      "C": "fire",
+      "X": "dry",
+      "Y": "rain",
+      "Z": "water"
+    },
+    "correct_answer": "A,X",
+    "explanation": "'Hot' is the opposite of 'cold'; 'wet' is the opposite of 'dry'. Both are antonym pairs."
+  },
+  {
+    "id": "vr_8327e84b3f0e",
+    "hash": "d162ddaa71710a35",
+    "added_at": "2026-02-24T14:00:28.000000+00:00",
+    "topic": "letter_move",
+    "topic_name": "Letter Move",
+    "strand": "Verbal Reasoning",
+    "difficulty": "easy",
+    "text": "In this question, one letter can be moved from the first word to the second word to make two new words. The letters must not otherwise be rearranged and both new words must make sense.\n\nsnail    pot",
+    "svg": null,
+    "options": {
+      "A": "l",
+      "B": "s",
+      "C": "a",
+      "D": "i",
+      "E": "n"
+    },
+    "correct_answer": "B",
+    "explanation": "The answer is 's': remove 's' from 'snail' to get 'nail', and add 's' to 'pot' to get 'spot'."
+  },
+  {
+    "id": "vr_16b1578174ee",
+    "hash": "5395039f1d8f243e",
+    "added_at": "2026-02-24T14:00:29.000000+00:00",
+    "topic": "common_word",
+    "topic_name": "Common Word (Double Meaning)",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "Only one of the five answers will go equally well with both pairs of words.\n\n(bright radiant)  (pale fair)",
+    "svg": null,
+    "options": {
+      "A": "white",
+      "B": "light",
+      "C": "glow",
+      "D": "dark",
+      "E": "clear"
+    },
+    "correct_answer": "B",
+    "explanation": "'Light' means both bright/radiant and pale/fair (light colour)."
+  },
+  {
+    "id": "vr_6a34648aebd3",
+    "hash": "05f14ec25adbaf08",
+    "added_at": "2026-02-24T14:00:30.000000+00:00",
+    "topic": "missing_letter_brackets",
+    "topic_name": "Missing Letter in Brackets",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "The same letter must fit into both sets of brackets, to complete the word in front of the brackets and begin the word after the brackets.\n\nwin [ ? ] ice    bal [ ? ] ark",
+    "svg": null,
+    "options": {
+      "A": "g",
+      "B": "b",
+      "C": "d",
+      "D": "j",
+      "E": "w"
+    },
+    "correct_answer": "C",
+    "explanation": "The letter 'd' fits both sets: wind, dice, bald, dark."
+  },
+  {
+    "id": "vr_aa92a2dad293",
+    "hash": "e26336dff10c023f",
+    "added_at": "2026-02-24T14:00:31.000000+00:00",
+    "topic": "common_word",
+    "topic_name": "Common Word (Double Meaning)",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "Only one of the five answers will go equally well with both pairs of words.\n\n(level smooth)  (apartment home)",
+    "svg": null,
+    "options": {
+      "A": "even",
+      "B": "room",
+      "C": "plain",
+      "D": "house",
+      "E": "flat"
+    },
+    "correct_answer": "E",
+    "explanation": "'Flat' means both level/smooth and an apartment/home."
+  },
+  {
+    "id": "vr_d731dbc67d48",
+    "hash": "e826963ce2ee2ac8",
+    "added_at": "2026-02-24T14:00:32.000000+00:00",
+    "topic": "missing_letter_brackets",
+    "topic_name": "Missing Letter in Brackets",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "The same letter must fit into both sets of brackets, to complete the word in front of the brackets and begin the word after the brackets.\n\nloo [ ? ] eak    wee [ ? ] ull",
+    "svg": null,
+    "options": {
+      "A": "p",
+      "B": "t",
+      "C": "f",
+      "D": "g",
+      "E": "r"
+    },
+    "correct_answer": "A",
+    "explanation": "The letter 'p' fits both sets: loop, peak, weep, pull."
+  },
+  {
+    "id": "vr_08e1038a23e8",
+    "hash": "5c2c240793d453f7",
+    "added_at": "2026-02-24T14:00:33.000000+00:00",
+    "topic": "letter_move",
+    "topic_name": "Letter Move",
+    "strand": "Verbal Reasoning",
+    "difficulty": "easy",
+    "text": "In this question, one letter can be moved from the first word to the second word to make two new words. The letters must not otherwise be rearranged and both new words must make sense.\n\nsport    lam",
+    "svg": null,
+    "options": {
+      "A": "o",
+      "B": "r",
+      "C": "s",
+      "D": "p",
+      "E": "t"
+    },
+    "correct_answer": "C",
+    "explanation": "The answer is 's': remove 's' from 'sport' to get 'port', and add 's' to 'lam' to get 'slam'."
+  },
+  {
+    "id": "vr_8ac442ecbae0",
+    "hash": "565e3b43aabf02fd",
+    "added_at": "2026-02-24T14:00:34.000000+00:00",
+    "topic": "number_series",
+    "topic_name": "Number Series",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "Find the number that continues the series in the most sensible way.\n\n15  13  17  11  19  9  21  7  [ ? ]",
+    "svg": null,
+    "options": {
+      "A": "21",
+      "B": "5",
+      "C": "25",
+      "D": "23",
+      "E": "24"
+    },
+    "correct_answer": "D",
+    "explanation": "Two alternating series: 15, 17, 19, 21 (step +2) and 13, 11, 9, 7 (step -2). Next = 21 + 2 = 23."
+  },
+  {
+    "id": "vr_0572b2de78cf",
+    "hash": "f243358619027766",
+    "added_at": "2026-02-24T14:00:35.000000+00:00",
+    "topic": "hidden_word",
+    "topic_name": "Hidden Word in Sentence",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "A word of four letters is hidden at the end of one word and the beginning of the next word. Find the pair of words that contains the hidden word.\n\nThe slope arrived at a gentle angle below.",
+    "svg": null,
+    "options": {
+      "A": "The slope",
+      "B": "slope arrived",
+      "C": "arrived at",
+      "D": "gentle angle",
+      "E": "angle below."
+    },
+    "correct_answer": "B",
+    "explanation": "The hidden word is 'pear': slo(pe) + (ar)rived = 'pear'."
+  },
+  {
+    "id": "vr_9827c765d0a8",
+    "hash": "a6ca231a17e2e7a0",
+    "added_at": "2026-02-24T14:00:36.000000+00:00",
+    "topic": "letter_pair_series",
+    "topic_name": "Letter Pair Series",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "Find the next pair of letters in the series.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\nFC  IF  LI  OL  [ ? ]",
+    "svg": null,
+    "options": {
+      "A": "SP",
+      "B": "QO",
+      "C": "RP",
+      "D": "QN",
+      "E": "RO"
+    },
+    "correct_answer": "E",
+    "explanation": "First letter: +3 each time. Second letter: +3 each time. Next = RO."
+  },
+  {
+    "id": "vr_6604f6851215",
+    "hash": "37f73d380fad2d66",
+    "added_at": "2026-02-24T14:00:37.000000+00:00",
+    "topic": "word_analogy",
+    "topic_name": "Word Analogy Sentence",
+    "strand": "Verbal Reasoning",
+    "difficulty": "easy",
+    "text": "Find the two words, one from each group, that complete the sentence in the best way.\n\nCaptain is to (ship sail crew) as pilot is to (fly aircraft runway)",
+    "svg": null,
+    "options": {
+      "A": "ship",
+      "B": "sail",
+      "C": "crew",
+      "X": "fly",
+      "Y": "aircraft",
+      "Z": "runway"
+    },
+    "correct_answer": "A,Y",
+    "explanation": "A captain commands a ship; a pilot commands an aircraft."
+  },
+  {
+    "id": "vr_ed41f16471b4",
+    "hash": "0615a48934a93d6b",
+    "added_at": "2026-02-24T14:00:38.000000+00:00",
+    "topic": "missing_three_letters",
+    "topic_name": "Missing Three Letters",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "The word in capitals has had three consecutive letters removed. These three letters make a real word. The sentence must make sense.\n\nThe race STED at exactly noon.",
+    "svg": null,
+    "options": {
+      "A": "TIN",
+      "B": "TOP",
+      "C": "TAN",
+      "D": "TEN",
+      "E": "TAR"
+    },
+    "correct_answer": "E",
+    "explanation": "Insert 'TAR' into 'STED' to make 'STARTED': S + TAR + TED."
+  },
+  {
+    "id": "vr_58aa5bcc7569",
+    "hash": "b8d359dd5a69adcc",
+    "added_at": "2026-02-24T14:00:39.000000+00:00",
+    "topic": "hidden_word",
+    "topic_name": "Hidden Word in Sentence",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "A word of four letters is hidden at the end of one word and the beginning of the next word. Find the pair of words that contains the hidden word.\n\nThe tall pole another worker had placed fell down.",
+    "svg": null,
+    "options": {
+      "A": "The tall",
+      "B": "tall pole",
+      "C": "pole another",
+      "D": "another worker",
+      "E": "fell down."
+    },
+    "correct_answer": "C",
+    "explanation": "The hidden word is 'lean': po(le) + (an)other = 'lean'."
+  },
+  {
+    "id": "vr_817cae59cff6",
+    "hash": "b24ca5f8f39621f0",
+    "added_at": "2026-02-24T14:00:40.000000+00:00",
+    "topic": "missing_three_letters",
+    "topic_name": "Missing Three Letters",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "The word in capitals has had three consecutive letters removed. These three letters make a real word. The sentence must make sense.\n\nThe WHER was warm and sunny.",
+    "svg": null,
+    "options": {
+      "A": "EMU",
+      "B": "ERA",
+      "C": "EAR",
+      "D": "EAT",
+      "E": "EWE"
+    },
+    "correct_answer": "D",
+    "explanation": "Insert 'EAT' into 'WHER' to make 'WEATHER': W + EAT + HER."
+  },
+  {
+    "id": "vr_f9c47ce67a66",
+    "hash": "b8fb12c1ed0afd82",
+    "added_at": "2026-02-24T14:00:41.000000+00:00",
+    "topic": "missing_three_letters",
+    "topic_name": "Missing Three Letters",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "The word in capitals has had three consecutive letters removed. These three letters make a real word. The sentence must make sense.\n\nHe used a CBAR to open the crate.",
+    "svg": null,
+    "options": {
+      "A": "RUN",
+      "B": "ROW",
+      "C": "RUG",
+      "D": "RAM",
+      "E": "RIM"
+    },
+    "correct_answer": "B",
+    "explanation": "Insert 'ROW' into 'CBAR' to make 'CROWBAR': C + ROW + BAR."
+  },
+  {
+    "id": "vr_0d282df5c8af",
+    "hash": "ad2559d73d74a3ea",
+    "added_at": "2026-02-24T14:00:42.000000+00:00",
+    "topic": "missing_three_letters",
+    "topic_name": "Missing Three Letters",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "The word in capitals has had three consecutive letters removed. These three letters make a real word. The sentence must make sense.\n\nThe doctor was TRING the patient.",
+    "svg": null,
+    "options": {
+      "A": "EAT",
+      "B": "ELF",
+      "C": "EAR",
+      "D": "EEL",
+      "E": "ERA"
+    },
+    "correct_answer": "A",
+    "explanation": "Insert 'EAT' into 'TRING' to make 'TREATING': TR + EAT + ING."
+  },
+  {
+    "id": "vr_ca3932c252cf",
+    "hash": "95b0b6b29451f9df",
+    "added_at": "2026-02-24T14:00:43.000000+00:00",
+    "topic": "word_connections",
+    "topic_name": "Word Connection Patterns",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "The three words in the second group should go together in the same way as the three in the first group.\n\n(parrot [pat] travel)    (pirate [ ? ] gentle)",
+    "svg": null,
+    "options": {
+      "A": "pip",
+      "B": "pin",
+      "C": "pie",
+      "D": "pit",
+      "E": "pig"
+    },
+    "correct_answer": "E",
+    "explanation": "First two letters of word 1 ('pi') + first letter of word 3 ('g') = 'pig'."
+  },
+  {
+    "id": "vr_4ede55640422",
+    "hash": "5cd9d726918b4913",
+    "added_at": "2026-02-24T14:00:44.000000+00:00",
+    "topic": "missing_letter_brackets",
+    "topic_name": "Missing Letter in Brackets",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "The same letter must fit into both sets of brackets, to complete the word in front of the brackets and begin the word after the brackets.\n\nbee [ ? ] ung    dee [ ? ] ail",
+    "svg": null,
+    "options": {
+      "A": "t",
+      "B": "k",
+      "C": "d",
+      "D": "c",
+      "E": "r"
+    },
+    "correct_answer": "E",
+    "explanation": "The letter 'r' fits both sets: beer, rung, deer, rail."
+  },
+  {
+    "id": "vr_6d131455deb5",
+    "hash": "eac2311fa50680dd",
+    "added_at": "2026-02-24T14:00:45.000000+00:00",
+    "topic": "word_analogy",
+    "topic_name": "Word Analogy Sentence",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "Find the two words, one from each group, that complete the sentence in the best way.\n\nHot is to (cold warm fire) as wet is to (dry rain water)",
+    "svg": null,
+    "options": {
+      "A": "cold",
+      "B": "warm",
+      "C": "fire",
+      "X": "dry",
+      "Y": "rain",
+      "Z": "water"
+    },
+    "correct_answer": "A,X",
+    "explanation": "'Hot' is the opposite of 'cold'; 'wet' is the opposite of 'dry'. Both are antonym pairs."
+  },
+  {
+    "id": "vr_8cfddf63330f",
+    "hash": "f605d377d8a00937",
+    "added_at": "2026-02-24T14:00:46.000000+00:00",
+    "topic": "common_word",
+    "topic_name": "Common Word (Double Meaning)",
+    "strand": "Verbal Reasoning",
+    "difficulty": "hard",
+    "text": "Only one of the five answers will go equally well with both pairs of words.\n\n(shore coast)  (financial money)",
+    "svg": null,
+    "options": {
+      "A": "bank",
+      "B": "river",
+      "C": "save",
+      "D": "loan",
+      "E": "beach"
+    },
+    "correct_answer": "A",
+    "explanation": "'Bank' means both a shore/coast (river bank) and a financial institution."
+  },
+  {
+    "id": "vr_1e569defff35",
+    "hash": "d97cbb09a13ee164",
+    "added_at": "2026-02-24T14:00:47.000000+00:00",
+    "topic": "letter_pair_series",
+    "topic_name": "Letter Pair Series",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "Find the next pair of letters in the series.\n\nA B C D E F G H I J K L M N O P Q R S T U V W X Y Z\n\nNZ  OY  PX  QW  [ ? ]",
+    "svg": null,
+    "options": {
+      "A": "RW",
+      "B": "SV",
+      "C": "QV",
+      "D": "RV",
+      "E": "SW"
+    },
+    "correct_answer": "D",
+    "explanation": "First letter goes forward by 1: N, O, P, Q. Second letter goes backward by 1: Z, Y, X, W. Next = RV."
+  },
+  {
+    "id": "vr_a7d82857f3a9",
+    "hash": "70cab5b2f31f55d1",
+    "added_at": "2026-02-24T14:00:48.000000+00:00",
+    "topic": "opposite_words",
+    "topic_name": "Opposite Words",
+    "strand": "Verbal Reasoning",
+    "difficulty": "medium",
+    "text": "Find two words, one from each group, that are most opposite in meaning.\n\n(question  forbid  reward)    (allow  answer  punish)",
+    "svg": null,
+    "options": {
+      "A": "question",
+      "B": "forbid",
+      "C": "reward",
+      "X": "allow",
+      "Y": "answer",
+      "Z": "punish"
+    },
+    "correct_answer": "B,X",
+    "explanation": "'forbid' and 'allow' are most opposite in meaning."
+  },
+  {
+    "id": "vr_fe93cb45346a",
+    "hash": "9c1b23b5a400b2f0",
+    "added_at": "2026-02-24T14:00:49.000000+00:00",
+    "topic": "missing_letter_brackets",
+    "topic_name": "Missing Letter in Brackets",
+    "strand": "Verbal Reasoning",
+    "difficulty": "easy",
+    "text": "The same letter must fit into both sets of brackets, to complete the word in front of the brackets and begin the word after the brackets.\n\ncoa [ ? ] ip    fla [ ? ] urn",
+    "svg": null,
+    "options": {
+      "A": "t",
+      "B": "f",
+      "C": "m",
+      "D": "d",
+      "E": "s"
+    },
+    "correct_answer": "A",
+    "explanation": "The letter 't' fits both sets: coat, tip, flat, turn."
+  }
+]

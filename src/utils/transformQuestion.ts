@@ -9,10 +9,11 @@ const optionMap: Record<string, OptionLabel> = {
 }
 
 export function transformQuestion(ext: ExternalQuestion): Question {
+  const image = ext.question_svg ?? ext.svg
   return {
     id: ext.id,
     text: ext.text,
-    ...(ext.svg ? { image: ext.svg } : {}),
+    ...(image ? { image } : {}),
     options: {
       a: ext.options.A,
       b: ext.options.B,

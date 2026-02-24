@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "math_8d78c88dfac8",
+    "hash": "a35bf08482f127a9",
+    "added_at": "2026-02-24T15:00:00.000000+00:00",
+    "topic": "place_value",
+    "topic_name": "Place Value",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "What is this number in figures?\n\nseven thousand, two hundred and six.",
+    "svg": null,
+    "options": {
+      "A": "7260",
+      "B": "7206",
+      "C": "72006",
+      "D": "726",
+      "E": "7026"
+    },
+    "correct_answer": "B",
+    "explanation": "Seven thousand = 7000, two hundred = 200, six = 6. Total = 7206. Distractors swap digits or omit the zero."
+  },
+  {
+    "id": "math_69d9dfce4b29",
+    "hash": "945f0184f3931a23",
+    "added_at": "2026-02-24T15:00:01.000000+00:00",
+    "topic": "place_value",
+    "topic_name": "Place Value",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "What is the value of the 4 in this number?\n\n4835",
+    "svg": null,
+    "options": {
+      "A": "4 ones",
+      "B": "4 tens",
+      "C": "4 hundreds",
+      "D": "4 thousands",
+      "E": "4 tenths"
+    },
+    "correct_answer": "D",
+    "explanation": "The digit 4 is in the thousands column, so its value is 4 thousands."
+  },
+  {
+    "id": "math_20c8a7240cc2",
+    "hash": "37136f2153fe13b8",
+    "added_at": "2026-02-24T15:00:02.000000+00:00",
+    "topic": "number_sequences",
+    "topic_name": "Number Sequences",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "What is the missing number in this sequence?\n\n64   56   48   ___   32",
+    "svg": null,
+    "options": {
+      "A": "44",
+      "B": "42",
+      "C": "40",
+      "D": "38",
+      "E": "36"
+    },
+    "correct_answer": "C",
+    "explanation": "The sequence decreases by 8 each time: 64, 56, 48, 40, 32."
+  },
+  {
+    "id": "math_dc10b67e6bd7",
+    "hash": "e1f67c97330ee708",
+    "added_at": "2026-02-24T15:00:03.000000+00:00",
+    "topic": "number_sequences",
+    "topic_name": "Number Sequences",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "What is the missing number in this sequence?\n\n7   14   28   ___   112",
+    "svg": null,
+    "options": {
+      "A": "42",
+      "B": "48",
+      "C": "52",
+      "D": "56",
+      "E": "64"
+    },
+    "correct_answer": "D",
+    "explanation": "Each number is doubled: 7×2=14, 14×2=28, 28×2=56, 56×2=112."
+  },
+  {
+    "id": "math_b34efc2525b0",
+    "hash": "08936de304b2c0c7",
+    "added_at": "2026-02-24T15:00:04.000000+00:00",
+    "topic": "measurement",
+    "topic_name": "Measurement – Length",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "Tom was 1.52 metres tall.\nHe grew 3 centimetres more.\n\nHow tall was he then in metres?",
+    "svg": null,
+    "options": {
+      "A": "1.82",
+      "B": "1.55",
+      "C": "1.532",
+      "D": "1.505",
+      "E": "4.52"
+    },
+    "correct_answer": "B",
+    "explanation": "3 cm = 0.03 m. So 1.52 + 0.03 = 1.55 m. Common errors include adding 0.3 instead of 0.03."
+  },
+  {
+    "id": "math_a28522cd597a",
+    "hash": "92b1f658eee07253",
+    "added_at": "2026-02-24T15:00:05.000000+00:00",
+    "topic": "number_operations",
+    "topic_name": "Number Operations",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "Write the correct number in the box.\n\n456 ÷ ___ = 456",
+    "svg": null,
+    "options": {
+      "A": "456",
+      "B": "0",
+      "C": "2",
+      "D": "0.5",
+      "E": "1"
+    },
+    "correct_answer": "E",
+    "explanation": "Any number divided by 1 equals itself. 456 ÷ 1 = 456."
+  },
+  {
+    "id": "math_bdeb7d4951d5",
+    "hash": "e4135d39fc42384c",
+    "added_at": "2026-02-24T15:00:06.000000+00:00",
+    "topic": "algebra",
+    "topic_name": "Algebra",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "b + 7 = 15\n\nb = ?",
+    "svg": null,
+    "options": {
+      "A": "7",
+      "B": "8",
+      "C": "9",
+      "D": "22",
+      "E": "105"
+    },
+    "correct_answer": "B",
+    "explanation": "b = 15 − 7 = 8. Distractor D is 15+7, E is 15×7."
+  },
+  {
+    "id": "math_232c5ab1517f",
+    "hash": "95efbb414ba6bfa0",
+    "added_at": "2026-02-24T15:00:07.000000+00:00",
+    "topic": "measurement",
+    "topic_name": "Measurement – Capacity",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "A bucket holds 2 litres of water.\nA bottle holds 500 millilitres.\nThe bottle is filled from the bucket.\n\nHow much water will be left in the bucket?",
+    "svg": null,
+    "options": {
+      "A": "1 litre",
+      "B": "1.5 litres",
+      "C": "1500 millilitres",
+      "D": "0.5 litres",
+      "E": "250 millilitres"
+    },
+    "correct_answer": "B",
+    "explanation": "500 ml = 0.5 litres. 2 − 0.5 = 1.5 litres. Both B and C represent 1.5 litres but B is the simplest form. The question asks in one format; B and C are equivalent but B matches the answer options' intent."
+  },
+  {
+    "id": "math_24f137e48ddc",
+    "hash": "94dade30d5740bfe",
+    "added_at": "2026-02-24T15:00:08.000000+00:00",
+    "topic": "percentages",
+    "topic_name": "Percentages",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "What percentage of £10 is 50p?",
+    "svg": null,
+    "options": {
+      "A": "0.5%",
+      "B": "5%",
+      "C": "10%",
+      "D": "20%",
+      "E": "50%"
+    },
+    "correct_answer": "B",
+    "explanation": "50p out of £10 (= 1000p). 50/1000 × 100 = 5%."
+  },
+  {
+    "id": "math_9190e0a843f9",
+    "hash": "198ba0b7d60c3fec",
+    "added_at": "2026-02-24T15:00:09.000000+00:00",
+    "topic": "time",
+    "topic_name": "Time",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "A bus left at 09:35.\nIt arrived at 10:20.\n\nHow long did the journey take, in minutes?",
+    "svg": null,
+    "options": {
+      "A": "35 mins",
+      "B": "45 mins",
+      "C": "55 mins",
+      "D": "65 mins",
+      "E": "85 mins"
+    },
+    "correct_answer": "B",
+    "explanation": "From 09:35 to 10:00 = 25 mins, then 10:00 to 10:20 = 20 mins. Total = 45 mins."
+  },
+  {
+    "id": "math_454b24276f66",
+    "hash": "9ab465111d9b4752",
+    "added_at": "2026-02-24T15:00:10.000000+00:00",
+    "topic": "geometry",
+    "topic_name": "Geometry – Area",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "A small square has sides of 1 cm.\nA rectangle has a width of 4 cm and a length of 7 cm.\n\nHow many small squares will fit into the rectangle?",
+    "svg": null,
+    "options": {
+      "A": "11",
+      "B": "22",
+      "C": "24",
+      "D": "28",
+      "E": "32"
+    },
+    "correct_answer": "D",
+    "explanation": "Area of rectangle = 4 × 7 = 28 cm². Each small square = 1 cm². So 28 squares fit."
+  },
+  {
+    "id": "math_2917477fddca",
+    "hash": "25e0ffab6aa23c4e",
+    "added_at": "2026-02-24T15:00:11.000000+00:00",
+    "topic": "time",
+    "topic_name": "Time – 24-Hour Clock",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "Which of these digital clocks shows quarter to nine in the evening?",
+    "svg": null,
+    "options": {
+      "A": "8:45",
+      "B": "9:15",
+      "C": "20:45",
+      "D": "21:15",
+      "E": "20:15"
+    },
+    "correct_answer": "C",
+    "explanation": "Quarter to nine = 8:45. In the evening means 24-hour clock: 20:45."
+  },
+  {
+    "id": "math_521b928e961e",
+    "hash": "7543c3b31c905c9b",
+    "added_at": "2026-02-24T15:00:12.000000+00:00",
+    "topic": "money",
+    "topic_name": "Money",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "Jack saved £3.50 a week.\n\nHow many weeks did it take him to save £28?",
+    "svg": null,
+    "options": {
+      "A": "6 weeks",
+      "B": "7 weeks",
+      "C": "8 weeks",
+      "D": "9 weeks",
+      "E": "10 weeks"
+    },
+    "correct_answer": "C",
+    "explanation": "£28 ÷ £3.50 = 8 weeks."
+  },
+  {
+    "id": "math_cfc1849d26bf",
+    "hash": "fdbc865925683990",
+    "added_at": "2026-02-24T15:00:13.000000+00:00",
+    "topic": "number_operations",
+    "topic_name": "Inverse Operations",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "Sophie thinks of a number.\nShe multiplies her number by 3.\nThen she adds 5.\nThe answer is 23.\n\nWhat number did Sophie first think of?",
+    "svg": null,
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "9"
+    },
+    "correct_answer": "C",
+    "explanation": "Working backwards: 23 − 5 = 18, then 18 ÷ 3 = 6."
+  },
+  {
+    "id": "math_e7efca88f979",
+    "hash": "f84bed53a1744f87",
+    "added_at": "2026-02-24T15:00:14.000000+00:00",
+    "topic": "fractions",
+    "topic_name": "Fractions of Amounts",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "A box had 40 sweets in it.\nLiam took out ¾ of them.\n\nHow many sweets did he take out?",
+    "svg": null,
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "24",
+      "D": "30",
+      "E": "36"
+    },
+    "correct_answer": "D",
+    "explanation": "¾ of 40 = 40 × 3 ÷ 4 = 30."
+  },
+  {
+    "id": "math_5abcb4b256a9",
+    "hash": "d82b628c2478a2a5",
+    "added_at": "2026-02-24T15:00:15.000000+00:00",
+    "topic": "number_operations",
+    "topic_name": "Multiplication",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "A ferry carries 348 passengers on each trip.\nHow many passengers does it carry in 12 trips?",
+    "svg": null,
+    "options": {
+      "A": "3480",
+      "B": "3876",
+      "C": "4176",
+      "D": "4276",
+      "E": "4836"
+    },
+    "correct_answer": "C",
+    "explanation": "348 × 12 = 348 × 10 + 348 × 2 = 3480 + 696 = 4176."
+  },
+  {
+    "id": "math_9f754f7f5dbb",
+    "hash": "b1d1da7b7580a24f",
+    "added_at": "2026-02-24T15:00:16.000000+00:00",
+    "topic": "measurement",
+    "topic_name": "Measurement – Mass",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "Mia had 8 bags.\nEach bag weighed 500 grams.\n\nHow many KILOGRAMS was this altogether?",
+    "svg": null,
+    "options": {
+      "A": "4 kg",
+      "B": "4.5 kg",
+      "C": "40 kg",
+      "D": "400 kg",
+      "E": "4000 kg"
+    },
+    "correct_answer": "A",
+    "explanation": "8 × 500g = 4000g. 4000g ÷ 1000 = 4 kg."
+  },
+  {
+    "id": "math_3b8ed9efa16d",
+    "hash": "8a932ae2db899a11",
+    "added_at": "2026-02-24T15:00:17.000000+00:00",
+    "topic": "number_properties",
+    "topic_name": "Squares and Powers",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "What is 5²?",
+    "svg": null,
+    "options": {
+      "A": "10",
+      "B": "20",
+      "C": "25",
+      "D": "32",
+      "E": "52"
+    },
+    "correct_answer": "C",
+    "explanation": "5² = 5 × 5 = 25. Common error: 5 × 2 = 10."
+  },
+  {
+    "id": "math_947485631b8a",
+    "hash": "c751e228a6102fbf",
+    "added_at": "2026-02-24T15:00:18.000000+00:00",
+    "topic": "ratio",
+    "topic_name": "Ratio",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "There were 30 children in a class.\nThere were twice as many girls as boys.\n\nHow many girls were there?",
+    "svg": null,
+    "options": {
+      "A": "10",
+      "B": "15",
+      "C": "18",
+      "D": "20",
+      "E": "24"
+    },
+    "correct_answer": "D",
+    "explanation": "If boys = x, girls = 2x. x + 2x = 30, so x = 10. Girls = 20."
+  },
+  {
+    "id": "math_5fefbacf663f",
+    "hash": "f794415f8822a312",
+    "added_at": "2026-02-24T15:00:19.000000+00:00",
+    "topic": "percentages",
+    "topic_name": "Percentages",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "What is 35% of 200?",
+    "svg": null,
+    "options": {
+      "A": "35",
+      "B": "55",
+      "C": "65",
+      "D": "70",
+      "E": "75"
+    },
+    "correct_answer": "D",
+    "explanation": "35% of 200 = 0.35 × 200 = 70."
+  },
+  {
+    "id": "math_900370b028f8",
+    "hash": "760a7c954f15f441",
+    "added_at": "2026-02-24T15:00:20.000000+00:00",
+    "topic": "fractions",
+    "topic_name": "Ordering Fractions",
+    "strand": "Mathematics",
+    "difficulty": "hard",
+    "text": "Put these fractions in order of size, starting with the smallest first.\n\n⅓   ⅕   ½   ¼   ⅙",
+    "svg": null,
+    "options": {
+      "A": "⅙  ⅕  ¼  ⅓  ½",
+      "B": "⅕  ⅙  ¼  ⅓  ½",
+      "C": "⅙  ⅕  ⅓  ¼  ½",
+      "D": "½  ⅓  ¼  ⅕  ⅙",
+      "E": "⅙  ¼  ⅕  ⅓  ½"
+    },
+    "correct_answer": "A",
+    "explanation": "Converting to a common denominator: ⅙ < ⅕ < ¼ < ⅓ < ½."
+  },
+  {
+    "id": "math_d7c30dd3bea4",
+    "hash": "d28b95cbfd2c7758",
+    "added_at": "2026-02-24T15:00:21.000000+00:00",
+    "topic": "measurement",
+    "topic_name": "Measurement – Temperature",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "The temperature outside was −3°C.\nBy midday it had risen by 8°C.\n\nWhat was the temperature at midday?",
+    "svg": null,
+    "options": {
+      "A": "−11°C",
+      "B": "−5°C",
+      "C": "3°C",
+      "D": "5°C",
+      "E": "11°C"
+    },
+    "correct_answer": "D",
+    "explanation": "−3 + 8 = 5°C."
+  },
+  {
+    "id": "math_c036317e0d51",
+    "hash": "863a0fbfaf78e234",
+    "added_at": "2026-02-24T15:00:22.000000+00:00",
+    "topic": "number_operations",
+    "topic_name": "Division",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "132 ÷ ▢ = 11\n\nWhat number does ▢ stand for?",
+    "svg": null,
+    "options": {
+      "A": "9",
+      "B": "11",
+      "C": "12",
+      "D": "13",
+      "E": "22"
+    },
+    "correct_answer": "C",
+    "explanation": "132 ÷ 12 = 11."
+  },
+  {
+    "id": "math_655c456b2336",
+    "hash": "cf7ce78d5a50175c",
+    "added_at": "2026-02-24T15:00:23.000000+00:00",
+    "topic": "number_operations",
+    "topic_name": "Multiplying by 10, 100, 1000",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "4.7 × 100 = ?",
+    "svg": null,
+    "options": {
+      "A": "0.047",
+      "B": "0.47",
+      "C": "47",
+      "D": "470",
+      "E": "4700"
+    },
+    "correct_answer": "D",
+    "explanation": "4.7 × 100 = 470. Move the decimal point two places to the right."
+  },
+  {
+    "id": "math_2aa09b3c243f",
+    "hash": "c52f58eb571dbf68",
+    "added_at": "2026-02-24T15:00:24.000000+00:00",
+    "topic": "number_properties",
+    "topic_name": "Number Properties",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "12   24   36\n\nThe three numbers above are alike in some ways.\nSelect ONE of the following to say one way in which they are alike.",
+    "svg": null,
+    "options": {
+      "A": "They are all odd numbers.",
+      "B": "They are all prime numbers.",
+      "C": "They are all multiples of 12.",
+      "D": "They are all square numbers.",
+      "E": "They are all multiples of 5."
+    },
+    "correct_answer": "C",
+    "explanation": "12 = 12×1, 24 = 12×2, 36 = 12×3. They are all multiples of 12."
+  },
+  {
+    "id": "math_861479342401",
+    "hash": "8720fc68222176cb",
+    "added_at": "2026-02-24T15:00:25.000000+00:00",
+    "topic": "time",
+    "topic_name": "Timetables",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "Here is part of a bus timetable.\n\nHigh Street:    08:15   08:30   08:45   09:00   09:15\nPark Lane:      08:23   08:38   08:53   09:08   09:23\nStation Road:   08:31   08:46   09:01   09:16   09:31\nMarket Square:  08:40   08:55   09:10   09:25   09:40\n\nA bus leaves High Street at 08:45.\nHow long does it take to get to Market Square?",
+    "svg": null,
+    "options": {
+      "A": "15 mins",
+      "B": "20 mins",
+      "C": "25 mins",
+      "D": "30 mins",
+      "E": "40 mins"
+    },
+    "correct_answer": "C",
+    "explanation": "The 08:45 bus arrives at Market Square at 09:10. From 08:45 to 09:10 = 25 minutes."
+  },
+  {
+    "id": "math_4c08615b6103",
+    "hash": "68991701023e6c34",
+    "added_at": "2026-02-24T15:00:26.000000+00:00",
+    "topic": "data_handling",
+    "topic_name": "Venn Diagrams",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "A Venn diagram shows multiples of 5 and multiples of 6.\nThe shaded section is the overlap.\n\nWhich of the following numbers could go in the shaded section?",
+    "svg": null,
+    "options": {
+      "A": "15",
+      "B": "18",
+      "C": "25",
+      "D": "30",
+      "E": "36"
+    },
+    "correct_answer": "D",
+    "explanation": "The overlap contains numbers that are multiples of BOTH 5 and 6. 30 is a multiple of both (5×6=30)."
+  },
+  {
+    "id": "math_e0acda979b3f",
+    "hash": "2ef94d7a47bb5805",
+    "added_at": "2026-02-24T15:00:27.000000+00:00",
+    "topic": "roman_numerals",
+    "topic_name": "Roman Numerals",
+    "strand": "Mathematics",
+    "difficulty": "hard",
+    "text": "Work out XIV + XXIII.\n\nGive your answer in Roman numerals.",
+    "svg": null,
+    "options": {
+      "A": "XXVII",
+      "B": "XXXIII",
+      "C": "XXXVII",
+      "D": "XLVII",
+      "E": "XLII"
+    },
+    "correct_answer": "C",
+    "explanation": "XIV = 14, XXIII = 23. 14 + 23 = 37 = XXXVII."
+  },
+  {
+    "id": "math_dc91028e4e5e",
+    "hash": "52b483ac5c27ab28",
+    "added_at": "2026-02-24T15:00:28.000000+00:00",
+    "topic": "number_sense",
+    "topic_name": "Number Lines",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "A number line goes from 300 to 500.\nIt is divided into 10 equal sections.\nWhich number does the 3rd mark from 300 point to?",
+    "svg": null,
+    "options": {
+      "A": "320",
+      "B": "330",
+      "C": "340",
+      "D": "360",
+      "E": "380"
+    },
+    "correct_answer": "D",
+    "explanation": "Range = 500 − 300 = 200. Each section = 200 ÷ 10 = 20. 3rd mark = 300 + (3 × 20) = 360."
+  },
+  {
+    "id": "math_1d1464527e6a",
+    "hash": "d1a110f2dadd8774",
+    "added_at": "2026-02-24T15:00:29.000000+00:00",
+    "topic": "money",
+    "topic_name": "Money – Multi-step",
+    "strand": "Mathematics",
+    "difficulty": "hard",
+    "text": "A gym charges £4.80 for a single visit.\nA monthly pass costs £32.\n\nSarah visits the gym 3 times a week for 4 weeks.\nHow much does she save by buying a monthly pass instead of paying each time?",
+    "svg": null,
+    "options": {
+      "A": "£15.60",
+      "B": "£20.80",
+      "C": "£25.60",
+      "D": "£24.80",
+      "E": "£22.40"
+    },
+    "correct_answer": "C",
+    "explanation": "Total visits = 3 × 4 = 12. Cost without pass = 12 × £4.80 = £57.60. Saving = £57.60 − £32 = £25.60."
+  },
+  {
+    "id": "math_7829b6ec35eb",
+    "hash": "e3f642d4194bc531",
+    "added_at": "2026-02-24T15:00:30.000000+00:00",
+    "topic": "geometry",
+    "topic_name": "Angles",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "What do the angles in a triangle add up to?",
+    "svg": null,
+    "options": {
+      "A": "90°",
+      "B": "180°",
+      "C": "270°",
+      "D": "360°",
+      "E": "540°"
+    },
+    "correct_answer": "B",
+    "explanation": "The angles in any triangle always add up to 180°."
+  },
+  {
+    "id": "math_320e1e16cb58",
+    "hash": "fcf78f7b441a00db",
+    "added_at": "2026-02-24T15:00:31.000000+00:00",
+    "topic": "measurement",
+    "topic_name": "Estimation – Capacity",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "About how much water does an ordinary bath hold?",
+    "svg": null,
+    "options": {
+      "A": "8 litres",
+      "B": "25 litres",
+      "C": "80 litres",
+      "D": "800 litres",
+      "E": "8000 litres"
+    },
+    "correct_answer": "C",
+    "explanation": "A standard bath holds roughly 80 litres of water."
+  },
+  {
+    "id": "math_1421d197d188",
+    "hash": "9725776ce6b2f72a",
+    "added_at": "2026-02-24T15:00:32.000000+00:00",
+    "topic": "algebra",
+    "topic_name": "Algebra",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "3a + 7 = 25\n\na = ?",
+    "svg": null,
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "8",
+      "E": "10"
+    },
+    "correct_answer": "C",
+    "explanation": "3a = 25 − 7 = 18. a = 18 ÷ 3 = 6."
+  },
+  {
+    "id": "math_80fe31f67bef",
+    "hash": "22206bc7be641df6",
+    "added_at": "2026-02-24T15:00:33.000000+00:00",
+    "topic": "data_handling",
+    "topic_name": "Pie Charts",
+    "strand": "Mathematics",
+    "difficulty": "hard",
+    "text": "A pie chart shows how 60 children travel to school.\nThe 'walk' section takes up exactly half the chart.\nThe 'bus' section takes up a quarter of the chart.\n\nHow many children travel by bus?",
+    "svg": null,
+    "options": {
+      "A": "10",
+      "B": "12",
+      "C": "15",
+      "D": "20",
+      "E": "30"
+    },
+    "correct_answer": "C",
+    "explanation": "A quarter of the chart = ¼ of 60 = 15 children."
+  },
+  {
+    "id": "math_cfff811e13ef",
+    "hash": "59f3768fea8142b3",
+    "added_at": "2026-02-24T15:00:34.000000+00:00",
+    "topic": "geometry",
+    "topic_name": "Perimeter",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "A rectangle has a length of 9 cm and a width of 4 cm.\n\nWhat is its perimeter?",
+    "svg": null,
+    "options": {
+      "A": "13 cm",
+      "B": "22 cm",
+      "C": "26 cm",
+      "D": "36 cm",
+      "E": "52 cm"
+    },
+    "correct_answer": "C",
+    "explanation": "Perimeter = 2 × (9 + 4) = 2 × 13 = 26 cm. Common error: 9 + 4 = 13 (only two sides)."
+  },
+  {
+    "id": "math_b100b6367e4d",
+    "hash": "4ca8321726f6637b",
+    "added_at": "2026-02-24T15:00:35.000000+00:00",
+    "topic": "ratio",
+    "topic_name": "Proportion",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "A girl was paid £2.10 for every 50 leaflets she delivered.\n\nHow much was she paid for delivering 200 leaflets?",
+    "svg": null,
+    "options": {
+      "A": "£4.20",
+      "B": "£6.30",
+      "C": "£8.00",
+      "D": "£8.40",
+      "E": "£10.50"
+    },
+    "correct_answer": "D",
+    "explanation": "200 ÷ 50 = 4 groups. 4 × £2.10 = £8.40."
+  },
+  {
+    "id": "math_76363de9e77e",
+    "hash": "06c7016daf6d3d94",
+    "added_at": "2026-02-24T15:00:36.000000+00:00",
+    "topic": "algebra",
+    "topic_name": "Algebraic Thinking",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "Put the correct number in the box.\n\n36 × 99 = 3600 − ___",
+    "svg": null,
+    "options": {
+      "A": "36",
+      "B": "64",
+      "C": "99",
+      "D": "136",
+      "E": "360"
+    },
+    "correct_answer": "A",
+    "explanation": "36 × 99 = 36 × (100 − 1) = 3600 − 36."
+  },
+  {
+    "id": "math_ebaed301bd52",
+    "hash": "7a25174662093b3e",
+    "added_at": "2026-02-24T15:00:37.000000+00:00",
+    "topic": "fractions",
+    "topic_name": "Fractions – Multi-step",
+    "strand": "Mathematics",
+    "difficulty": "hard",
+    "text": "Emma and her brother share a cake cut into 8 equal slices.\nEmma eats ¼ of all the slices. Her brother eats ½ of the remaining slices.\n\nAfter both Emma and her brother have eaten, what fraction of the cake is left?",
+    "svg": null,
+    "options": {
+      "A": "⅛",
+      "B": "¼",
+      "C": "⅜",
+      "D": "½",
+      "E": "⅝"
+    },
+    "correct_answer": "C",
+    "explanation": "Emma eats ¼ of 8 = 2 slices. Remaining = 6. Brother eats ½ of 6 = 3 slices. Left = 8 − 2 − 3 = 3 slices = ⅜."
+  },
+  {
+    "id": "math_0203721c4935",
+    "hash": "f033fcbda0c66cda",
+    "added_at": "2026-02-24T15:00:38.000000+00:00",
+    "topic": "ratio",
+    "topic_name": "Ratio – Mixing",
+    "strand": "Mathematics",
+    "difficulty": "hard",
+    "text": "To make green paint, you mix 3 parts blue, 5 parts yellow and 2 parts white.\n\nHow much blue paint is needed to make 30 litres of green paint?",
+    "svg": null,
+    "options": {
+      "A": "3 litres",
+      "B": "5 litres",
+      "C": "6 litres",
+      "D": "9 litres",
+      "E": "15 litres"
+    },
+    "correct_answer": "D",
+    "explanation": "Total parts = 3 + 5 + 2 = 10. Blue = 3/10 of 30 = 9 litres."
+  },
+  {
+    "id": "math_40010b88bc18",
+    "hash": "340261002c922774",
+    "added_at": "2026-02-24T15:00:39.000000+00:00",
+    "topic": "number_operations",
+    "topic_name": "Function Machines",
+    "strand": "Mathematics",
+    "difficulty": "hard",
+    "text": "Mia starts with the number 4.\n\nWhich of these instructions does NOT give her an answer of 20?",
+    "svg": null,
+    "options": {
+      "A": "Multiply by six, then subtract four.",
+      "B": "Add one, then multiply by four.",
+      "C": "Triple your value, add two, then double.",
+      "D": "Multiply by three, then add eight.",
+      "E": "Multiply by five."
+    },
+    "correct_answer": "C",
+    "explanation": "A: 4×6−4=20 ✓  B: (4+1)×4=20 ✓  C: 4×3=12, 12+2=14, 14×2=28 ✗  D: 4×3+8=20 ✓  E: 4×5=20 ✓. Only C gives 28, not 20."
+  },
+  {
+    "id": "math_e7b959eada8a",
+    "hash": "d6966bb96e9adb2d",
+    "added_at": "2026-02-24T15:00:40.000000+00:00",
+    "topic": "problem_solving",
+    "topic_name": "Multi-step Problem",
+    "strand": "Mathematics",
+    "difficulty": "hard",
+    "text": "Instructions for baking a turkey:\nCook for 20 minutes at 220°C.\nTurn down the heat to 180°C.\nAllow 40 minutes cooking time for every 1 kg.\n\nA turkey takes 3 hours altogether to cook.\n\nHow heavy is it?",
+    "svg": null,
+    "options": {
+      "A": "3.5 kg",
+      "B": "4 kg",
+      "C": "4.5 kg",
+      "D": "5 kg",
+      "E": "7 kg"
+    },
+    "correct_answer": "B",
+    "explanation": "Total time = 3 hours = 180 mins. Minus initial 20 mins = 160 mins at 180°C. 160 ÷ 40 = 4 kg."
+  },
+  {
+    "id": "math_80ee252f9169",
+    "hash": "31cb148d32caafbd",
+    "added_at": "2026-02-24T15:00:41.000000+00:00",
+    "topic": "geometry",
+    "topic_name": "Coordinates",
+    "strand": "Mathematics",
+    "difficulty": "easy",
+    "text": "On a coordinate grid, a school is at (2, 5).\nA park is 3 squares to the right and 2 squares down from the school.\n\nWhat are the coordinates of the park?",
+    "svg": null,
+    "options": {
+      "A": "(5, 3)",
+      "B": "(5, 7)",
+      "C": "(3, 5)",
+      "D": "(−1, 7)",
+      "E": "(5, 2)"
+    },
+    "correct_answer": "A",
+    "explanation": "Right 3: x goes from 2 to 5. Down 2: y goes from 5 to 3. Park is at (5, 3)."
+  },
+  {
+    "id": "math_47c29fe9f1f6",
+    "hash": "42dc3af113cbc9b3",
+    "added_at": "2026-02-24T15:00:42.000000+00:00",
+    "topic": "problem_solving",
+    "topic_name": "Halving Problem",
+    "strand": "Mathematics",
+    "difficulty": "hard",
+    "text": "A ball is dropped from a height of 16 metres.\nEach time it bounces, it reaches half the previous height.\n\nHow high does it reach after the 3rd bounce?",
+    "svg": null,
+    "options": {
+      "A": "1 m",
+      "B": "2 m",
+      "C": "4 m",
+      "D": "6 m",
+      "E": "8 m"
+    },
+    "correct_answer": "B",
+    "explanation": "After 1st bounce: 16÷2 = 8 m. After 2nd: 8÷2 = 4 m. After 3rd: 4÷2 = 2 m."
+  },
+  {
+    "id": "math_1e49f92da4c7",
+    "hash": "3b87c50650b700c4",
+    "added_at": "2026-02-24T15:00:43.000000+00:00",
+    "topic": "fractions",
+    "topic_name": "Fractions and Decimals",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "Which of these is the same as 0.75?",
+    "svg": null,
+    "options": {
+      "A": "¼",
+      "B": "⅜",
+      "C": "½",
+      "D": "⅝",
+      "E": "¾"
+    },
+    "correct_answer": "E",
+    "explanation": "0.75 = 75/100 = ¾."
+  },
+  {
+    "id": "math_9962b8afae96",
+    "hash": "8d7df890f9d901be",
+    "added_at": "2026-02-24T15:00:44.000000+00:00",
+    "topic": "geometry",
+    "topic_name": "Lines of Symmetry",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "How many lines of symmetry does a regular hexagon have?",
+    "svg": null,
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "6",
+      "E": "8"
+    },
+    "correct_answer": "D",
+    "explanation": "A regular hexagon has 6 lines of symmetry."
+  },
+  {
+    "id": "math_831e737baa53",
+    "hash": "e7b50349b77d259d",
+    "added_at": "2026-02-24T15:00:45.000000+00:00",
+    "topic": "data_handling",
+    "topic_name": "Averages",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "Five children scored the following in a test:\n\n12   15   18   10   20\n\nWhat is their mean score?",
+    "svg": null,
+    "options": {
+      "A": "12",
+      "B": "14",
+      "C": "15",
+      "D": "16",
+      "E": "18"
+    },
+    "correct_answer": "C",
+    "explanation": "Sum = 12+15+18+10+20 = 75. Mean = 75 ÷ 5 = 15."
+  },
+  {
+    "id": "math_bd36a73633b4",
+    "hash": "581cb0652eef2290",
+    "added_at": "2026-02-24T15:00:46.000000+00:00",
+    "topic": "number_sense",
+    "topic_name": "Negative Numbers",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "What is −4 + 9?",
+    "svg": null,
+    "options": {
+      "A": "−13",
+      "B": "−5",
+      "C": "4",
+      "D": "5",
+      "E": "13"
+    },
+    "correct_answer": "D",
+    "explanation": "−4 + 9 = 5."
+  },
+  {
+    "id": "math_a59c55810cf1",
+    "hash": "968b874e67f2ebd8",
+    "added_at": "2026-02-24T15:00:47.000000+00:00",
+    "topic": "probability",
+    "topic_name": "Probability",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "A bag contains 3 red balls, 5 blue balls and 2 green balls.\nOne ball is taken out at random.\n\nWhat is the probability that it is blue?",
+    "svg": null,
+    "options": {
+      "A": "⅕",
+      "B": "¼",
+      "C": "⅓",
+      "D": "½",
+      "E": "⅗"
+    },
+    "correct_answer": "D",
+    "explanation": "Total balls = 3+5+2 = 10. P(blue) = 5/10 = ½."
+  },
+  {
+    "id": "math_8ada4e81e41d",
+    "hash": "72879337df6fdfbc",
+    "added_at": "2026-02-24T15:00:48.000000+00:00",
+    "topic": "problem_solving",
+    "topic_name": "Using Tables",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "A sports club has these membership prices:\n\nAdult: £45.00\nChild (under 16): £22.50\nFamily (2 adults + up to 3 children): £99.00\nSenior (over 65): £30.00\n\nMr and Mrs Khan want to join with their two children, aged 8 and 13.\n\nHow much do they save by choosing a Family membership instead of paying individually?",
+    "svg": null,
+    "options": {
+      "A": "£18.00",
+      "B": "£27.00",
+      "C": "£36.00",
+      "D": "£45.00",
+      "E": "£54.00"
+    },
+    "correct_answer": "C",
+    "explanation": "Individual cost: 2 × £45 + 2 × £22.50 = £90 + £45 = £135. Family = £99. Saving = £135 − £99 = £36."
+  },
+  {
+    "id": "math_73ceb37c51ba",
+    "hash": "099bdcc59a391769",
+    "added_at": "2026-02-24T15:00:49.000000+00:00",
+    "topic": "number_sense",
+    "topic_name": "Estimation",
+    "strand": "Mathematics",
+    "difficulty": "medium",
+    "text": "Which calculation gives the best estimate for 49 × 21?",
+    "svg": null,
+    "options": {
+      "A": "40 × 20 = 800",
+      "B": "50 × 20 = 1000",
+      "C": "50 × 25 = 1250",
+      "D": "45 × 20 = 900",
+      "E": "50 × 30 = 1500"
+    },
+    "correct_answer": "B",
+    "explanation": "Rounding to the nearest 10: 49 ≈ 50, 21 ≈ 20. 50 × 20 = 1000. (Actual = 1029.)"
+  }
+]

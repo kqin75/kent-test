@@ -5,14 +5,20 @@ import { usePaperStore } from '../../store/paperStore'
 import { useTimer } from '../../hooks/useTimer'
 import { calculateScore } from '../../utils/scoring'
 import { EXAM_DURATION_SECONDS } from '../../constants'
+import type { SubjectKey } from '../../constants'
 import Timer from './Timer'
 import QuestionCard from './QuestionCard'
 import QuestionNav from './QuestionNav'
 import ExamControls from './ExamControls'
 import Modal from '../ui/Modal'
 
-export default function ExamShell() {
+interface ExamShellProps {
+  subject: string
+}
+
+export default function ExamShell({ subject }: ExamShellProps) {
   const navigate = useNavigate()
+  const subjectKey = subject as SubjectKey
   const {
     paper,
     currentIndex,
@@ -36,7 +42,7 @@ export default function ExamShell() {
     const timeUsed = getTimeUsed.current()
     const score = calculateScore(paper.questions, answers)
     submitExam(timeUsed)
-    completePaper(paper.id, {
+    completePaper(subjectKey, paper.id, {
       id: crypto.randomUUID(),
       paperTitle: paper.title,
       score,
@@ -47,8 +53,8 @@ export default function ExamShell() {
       timeUsed,
       completedAt: new Date().toISOString(),
     })
-    navigate('/results')
-  }, [paper, answers, submitExam, completePaper, navigate])
+    navigate(`/${subject}/results`)
+  }, [paper, answers, submitExam, completePaper, navigate, subject, subjectKey])
 
   const timer = useTimer({
     initialSeconds: EXAM_DURATION_SECONDS,

@@ -1,22 +1,29 @@
 import type { Question, OptionLabel } from '../../data/schema'
+import type { SubjectKey } from '../../constants'
 import { getTopicById } from '../../data/topics'
 import QuestionImage from '../ui/QuestionImage'
 
 interface QuestionReviewProps {
   questions: Question[]
   answers: Record<string, OptionLabel | null>
+  subject: SubjectKey
 }
 
 const optionLabels: OptionLabel[] = ['a', 'b', 'c', 'd', 'e']
 
-export default function QuestionReview({ questions, answers }: QuestionReviewProps) {
+function isSvg(value: string) {
+  return value.trimStart().startsWith('<svg')
+}
+
+export default function QuestionReview({ questions, answers, subject }: QuestionReviewProps) {
   return (
     <div className="space-y-4">
       <h3 className="text-lg font-bold text-gray-900">Question Review</h3>
       {questions.map((q, idx) => {
         const userAnswer = answers[q.id] ?? null
         const isCorrect = userAnswer === q.answer
-        const topic = getTopicById(q.topic)
+        const topic = getTopicById(subject, q.topic)
+        const hasSvgOptions = isSvg(q.options.a)
 
         return (
           <div
@@ -64,7 +71,7 @@ export default function QuestionReview({ questions, answers }: QuestionReviewPro
               </div>
             )}
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-3">
+            <div className={`${hasSvgOptions ? 'grid grid-cols-3 sm:grid-cols-5' : 'grid grid-cols-1 sm:grid-cols-2'} gap-2 mb-3`}>
               {optionLabels.map((label) => {
                 const isUserChoice = userAnswer === label
                 const isCorrectAnswer = q.answer === label
@@ -82,7 +89,11 @@ export default function QuestionReview({ questions, answers }: QuestionReviewPro
                     className={`px-3 py-2 rounded-lg border text-sm ${style}`}
                   >
                     <span className="font-bold mr-2">{label.toUpperCase()}</span>
-                    {q.options[label]}
+                    {hasSvgOptions ? (
+                      <span dangerouslySetInnerHTML={{ __html: q.options[label] }} />
+                    ) : (
+                      q.options[label]
+                    )}
                     {isCorrectAnswer && ' ✓'}
                     {isUserChoice && !isCorrectAnswer && ' ✗'}
                   </div>

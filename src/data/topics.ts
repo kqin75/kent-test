@@ -1,4 +1,5 @@
 import type { Topic, ExternalQuestion } from './schema'
+import type { SubjectKey } from '../constants'
 
 const PALETTE = [
   '#3b82f6', '#8b5cf6', '#10b981', '#ef4444', '#06b6d4',
@@ -6,7 +7,12 @@ const PALETTE = [
   '#f97316', '#0ea5e9', '#a855f7', '#22c55e', '#e11d48',
 ]
 
-export let topics: Topic[] = []
+export const topicsBySubject: Record<SubjectKey, Topic[]> = {
+  maths: [],
+  english: [],
+  vr: [],
+  nvr: [],
+}
 
 export function buildTopics(externals: ExternalQuestion[]): Topic[] {
   const seen = new Map<string, { name: string; strand: string }>()
@@ -29,10 +35,14 @@ export function buildTopics(externals: ExternalQuestion[]): Topic[] {
   return result
 }
 
-export function setTopics(t: Topic[]) {
-  topics = t
+export function setTopics(subject: SubjectKey, t: Topic[]) {
+  topicsBySubject[subject] = t
 }
 
-export function getTopicById(id: string) {
-  return topics.find((t) => t.id === id)
+export function getTopicById(subject: SubjectKey, id: string) {
+  return topicsBySubject[subject].find((t) => t.id === id)
+}
+
+export function getTopics(subject: SubjectKey): Topic[] {
+  return topicsBySubject[subject]
 }

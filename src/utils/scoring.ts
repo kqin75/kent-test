@@ -1,5 +1,4 @@
-import type { Question, OptionLabel, TopicId } from '../data/schema'
-import { topics } from '../data/topics'
+import type { Question, OptionLabel, TopicId, Topic } from '../data/schema'
 
 export interface TopicScore {
   topicId: TopicId
@@ -19,6 +18,7 @@ export function calculateScore(
 export function calculateTopicScores(
   questions: Question[],
   answers: Record<string, OptionLabel | null>,
+  topics: Topic[],
 ): TopicScore[] {
   const map = new Map<TopicId, { correct: number; total: number }>()
 
