@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kent-11-plus.co.uk/sitemap.xml
