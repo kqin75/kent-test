@@ -26,6 +26,7 @@ import HomePage from './pages/HomePage'
 import ExamPage from './pages/ExamPage'
 import ResultsPage from './pages/ResultsPage'
 import ContactPage from './pages/ContactPage'
+import BlogPage from './pages/BlogPage'
 
 function AppLoader({ children }: { children: React.ReactNode }) {
   const seedFromJson = useQuestionBankStore((s) => s.seedFromJson)
@@ -53,12 +54,16 @@ export default function App() {
   return (
     <BrowserRouter>
       <AnalyticsTracker />
-      <nav className="bg-white border-b border-gray-200 px-4 py-2 flex justify-end">
-        <Link to="/contact" className="text-sm text-gray-600 hover:text-blue-600">
+      <nav className="bg-white border-b border-gray-200 px-4 py-2 flex justify-end gap-4">
+        <Link to="/blog" className="text-base font-semibold text-blue-600 hover:text-blue-800">
+          Blog
+        </Link>
+        <Link to="/contact" className="text-base font-semibold text-blue-600 hover:text-blue-800">
           Contact
         </Link>
       </nav>
       <Routes>
+        <Route path="/blog" element={<BlogPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/*" element={
           <AppLoader>

@@ -1,0 +1,23 @@
+export interface BlogPost {
+  id: string
+  date: string
+  title: string
+  paragraphs: string[]
+}
+
+export const blogPosts: BlogPost[] = [
+  {
+    id: '2026-02-28',
+    date: '28 February 2026',
+    title: 'Weekly Maths Questions — Every Friday!',
+    paragraphs: [
+      'Hello everyone,',
+      'I wanted to share a quick update regarding the Mathematics section of the website.',
+      'We know that preparing for the 11+ can feel like a long journey, and often the hardest part for students is staying consistent without running out of practice material. To help with this, I\'ve decided to start a new routine: <strong>every Friday, I will be releasing a fresh set of mathematics questions.</strong>',
+      'My hope is that this gives students something new to look forward to each week, helping them build momentum and stay sharp.',
+      'For the time being, these updates will focus solely on <strong>Mathematics</strong>. I am still working hard behind the scenes to update the English and Reasoning sections, and I\'ll let you know as soon as those are ready.',
+      'I hope these new questions prove helpful for your revision this weekend. If you have any feedback or specific topics you\'d like to see covered, feel free to reach out.',
+      'Happy practising!'
+    ]
+  }
+]
